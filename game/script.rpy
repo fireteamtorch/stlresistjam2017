@@ -23,6 +23,7 @@ init:
 
     $ ScaleClaire = 350
     $ ScaleFrank = 400
+    $ ScaleCharles = 450
 
     $ PortraitScale = 1.1
 
@@ -37,7 +38,7 @@ label start:
     image bgBar = "bgSectionsEdit1080.png"
     image bgBarDay = "Bar-BG-Daytime.png"
     #image bgBarDay = im.Scale("Bar-BG-Daytime.png", 1280 , 720)
-    #image bgBarNight = im.Scale("Bar-BG-Nighttime.png", 1280 , 720)
+    image bgBarNight = "Bar-BG-Nighttime.png"
     
     #image bgCounterTop = "bgBarTop1080.png"
     image bgCounterTop = "tempBarCounter.png"
@@ -96,6 +97,10 @@ label start:
         pause 1.0
         repeat
 
+    image charles sit = im.Scale("Charles-Player-LookEdit.png", ScaleCharles, ScaleCharles)
+
+    image side charles = im.Scale("tempCharlesPortrait.png", ScaleCharles * PortraitScale * 0.8, ScaleCharles* PortraitScale * 0.8)
+
     $ factorSeat = (0.1) * 0.85
     $ factorSeatOffset = 0.1
     $ factorSeatHeightOffset = -0.03
@@ -125,7 +130,7 @@ label start:
     # images directory to show it.
     scene black
     with dissolve
-    
+
     jump Day1Block
     #scene bg room
 
