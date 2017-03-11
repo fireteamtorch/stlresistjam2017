@@ -104,6 +104,17 @@ label start:
 
     image side charles = im.Scale("tempCharlesPortrait.png", ScaleCharles * PortraitScale * 0.8, ScaleCharles* PortraitScale * 0.8)
 
+
+    image braxton sit lookPlayer = im.Scale("Brock-PlayerLook.png", ScaleCharles, ScaleCharles)
+    image braxton sit lookLeft = im.Scale("Brock-LookLeft.png", ScaleCharles, ScaleCharles)
+    image braxton sit lookRight = im.Scale("Brock-LookRight.png", ScaleCharles, ScaleCharles)
+
+    image braxton angry = im.Scale("Brock-Angry.png", ScaleCharles, ScaleCharles)
+
+    image braxton smile = im.Scale("Brock-PlayerLook-Smile.png", ScaleCharles, ScaleCharles)
+
+    image side braxton = im.Scale("tempBrockPortrait.png", ScaleCharles * PortraitScale * 0.8, ScaleCharles* PortraitScale * 0.8)
+
     $ factorSeat = (0.1) * 0.85
     $ factorSeatOffset = 0.1
     $ factorSeatHeightOffset = -0.03
