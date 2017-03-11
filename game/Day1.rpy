@@ -3,6 +3,8 @@ label Day1Block:
     scene black
     with dissolve
 
+    jump Day2Block
+
     play music "tempDayTitleShortestDeNoise.mp3" noloop
 
     #image top_text = ParameterizedText(text = "Week 1\n\nNew Faces", xalign=0.5, yalign=0.0, text_size = 80)
@@ -30,6 +32,7 @@ label Day1Block:
 
     #play music "noir_test_v001_lowpassEQ.mp3"
     play music "noir_v002_lpf_LOOPedit.wav"
+
 
     #show charles sit at Center(xcenter = Seat2.xcenter,ycenter = (Seat2.ycenter))
     #show charles sit at Seat2
@@ -110,7 +113,7 @@ label Day1Block:
     with Dissolve(disFactor)
     charles "You open?"
 
-    "Come on in, the grill's still running."
+    bartender "Come on in, the grill's still running."
 
     charles "Oh cool."
 
@@ -216,5 +219,6 @@ label Day1Block:
     
     bartender "All in all, not bad for the first day."
 
+    jump Day2Block
 
 return

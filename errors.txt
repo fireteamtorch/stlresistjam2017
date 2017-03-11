@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 100: Line is indented, but the preceding image statement statement does not expect a block. Please check this line's indentation.
-    xalign = 1
-    ^
+File "game/Day2.rpy", line 252: choice menuitem expects a non-empty block.
+    "'Fine Frank, here's another beer'":
+                                        ^
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187

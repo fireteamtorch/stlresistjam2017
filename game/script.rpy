@@ -31,6 +31,9 @@ init:
 
     $ disFactor = 0.1
 
+    $ elysia = Character("Elysia", image = "elysia", color="#e5e500", what_color="#e5e500", what_font = "CARERRA-Jones.otf")
+
+    $ braxton = Character("Braxton", image = "braxton", color="#ff4c4c", what_color="#ff4c4c", what_font = "CARERRA-Jones.otf")
 # The game starts here.
 
 label start:
