@@ -2,12 +2,12 @@
 errors listed below, and try again.
 
 
-File "game/Day5.rpy", line 176: expected statement.
-    Frank stands up and moves to the farthest stool at the other end of the bar.
-                                                    ^
+File "game/Day6.rpy", line 41: end of line expected.
+    braxton "Yeah, yeah, smart guy. I popped into a science class a few days ago and they were watching some nature documentary about it. All these asshole males will fight each other until there’s one alpha and meanwhile the kids, "calves" in this case, are the ones getting trampled and hurt."
+                                                                                                                                                                                                                                         ^
 
-File "game/Day5.rpy", line 198: expected statement.
-    Frank gets settled back into his seat.
-                                         ^
+File "game/Day6.rpy", line 96: end of line expected.
+    braxton "As part of the negotiations for the new plant... But you know what? "Secured new plant to stimulate economy" looks great on a politicial's resume. All the negotiating happened before the spill but... It might still go through."
+                                                                                  ^
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187
