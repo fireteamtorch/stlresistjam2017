@@ -178,6 +178,9 @@ label Day6Block:
     
     "Jens should be getting back soon..."
 
+    scene black
+    with dissolve
+
     stop music fadeout 1.0
     pause 1
     show text "End of Day" at truecenter as text3
