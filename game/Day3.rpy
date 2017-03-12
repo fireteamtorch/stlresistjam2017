@@ -8,7 +8,7 @@ label Day3Block:
     show text "Week 3" at Transform(xalign = 0.5, yalign = 0.47) as text1
     #show top_text at truecenter
     with Dissolve(2.0)
-    show text "Tension rises" at Transform(xalign = 0.5, yalign = 0.53) as text2
+    show text "Tensions rise" at Transform(xalign = 0.5, yalign = 0.53) as text2
     with Dissolve(2.0)
     
     pause 1

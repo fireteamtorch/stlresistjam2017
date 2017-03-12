@@ -3,7 +3,7 @@ label Day1Block:
     scene black
     with dissolve
 
-    jump Day7Block
+    jump Day3Block
 
     play music "tempDayTitleShortestDeNoise.mp3" noloop
 
@@ -70,7 +70,7 @@ label Day1Block:
     show frank sit beer lookLeft at Seat1
     with Dissolve(disFactor)
 
-    "A middle aged man walks in, and looks at his watch. He shakes the minor look of confusion off of his face, then rubs his belly before walking over."
+    "A middle-aged man walks in, and looks at his watch. He shakes the minor look of confusion off of his face, then rubs his belly before walking over."
 
     show frank sit beer lookRight at Seat2
     with Dissolve(disFactor)
@@ -89,13 +89,13 @@ label Day1Block:
 
     show frank sit beer lookPlayer at Seat2
     with Dissolve(disFactor)
-    frank "Hamburger and fries, and-"
+    frank "Hamburger and fries, and -"
 
     show frank sit at Seat2
     with Dissolve(disFactor)
     "Frank tucks the can of beer in his hand into his pocket."
 
-    frank "Sorry, probably ain't suppose to have my own. Lemme get one of them Beers."
+    frank "Sorry, probably ain't suppose to have my own. Lemme get one of them beers."
 
     bartender "Got a favorite brand?"
 
@@ -114,7 +114,7 @@ label Day1Block:
     frank "Oh dear!"
 
     show frank looking anim at Seat2
-    "Frank shifts uncomfortably at the mention of Lime. You can tell he's too polite to send the drink back, and so, averting your gaze, he hesitantly moves to open it."
+    "Frank shifts uncomfortably at the mention of lime. You can tell he's too polite to send the drink back, and so, averting your gaze, he hesitantly moves to open it."
     
     bartender "Just messing, it's just regular old beer."
 
@@ -136,7 +136,7 @@ label Day1Block:
 
     show frank sit beer lookPlayer at Seat2
     with Dissolve(disFactor)
-    "Door opens, and a young man in his late 20's enters the bar."
+    "Door opens, and a young man in his late twenties enters the bar."
 
     show frank sit beer lookRight at Seat2
     show charles sit at Seat1
@@ -145,13 +145,13 @@ label Day1Block:
 
     bartender "Come on in, the grill's still running."
 
-    charles "Oh cool."
+    charles "Oh, cool."
 
     show charles sit at Seat4
     with Dissolve(disFactor)
     "Charles pondered his surroundings, and chose to sit down on the empty side of the bar."
 
-    charles "Open late huh."
+    charles "Open late, huh?"
 
     "Charles studies the wall intensely."
 
@@ -163,7 +163,7 @@ label Day1Block:
 
     show frank angry lookRight at Seat2
     with Dissolve(disFactor)
-    charles "Well done, with some a side of... do you have Kale?"
+    charles "Well done, with some a side of... do you have kale?"
 
     show frank angry lookLeft at Seat2
     with Dissolve(disFactor)
@@ -183,9 +183,11 @@ label Day1Block:
     with Dissolve(disFactor)
     "Frank's face turns cherry red, and he finally slows his pace."
 
-    frank "So, erm, did you buy the place from Jens? It never used to open this late."
+    frank "So, um, did you buy the place from Jens? It never used to be open this late."
 
-    bartender "Oh no, I'm Jens' brother. He asked me to take over for him for a while so he can go travel with his fiancé. I figured, why not put his liquor license to use, and try to open up the bar on Friday nights."
+    bartender "Oh no, Jens is my brother. He asked me to take over for him for a while so he can go travel with his fiancé."
+    
+    bartender "I figured, why not put his liquor license to use, and try to open up the bar on Friday nights."
     
     show frank smile beer at Seat2
     with Dissolve(disFactor)
@@ -201,7 +203,7 @@ label Day1Block:
 
     show frank drunk angry lookRight at Seat2
     with Dissolve(disFactor)
-    "Charles looks at you with an excited smile that screams 'Please ask what I do for a living.'."
+    "Charles looks at you with an excited smile that screams 'Please ask what I do for a living.'"
 
     show frank drunk at Seat2
     with Dissolve(disFactor)
@@ -215,7 +217,7 @@ label Day1Block:
     with Dissolve(disFactor)
     charles "I'm a reporter for the local paper."
 
-    bartender "Journalist huh."
+    bartender "Journalist, huh?"
 
     charles "Yeah, normally, the workload isn't all that bad. But you know... elections coming up."
 

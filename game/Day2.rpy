@@ -35,7 +35,7 @@ label Day2Block:
 
     show charles sit at Seat2
 
-    charles "Extra extra, read all about it. Beloved local diner now open on Friday nights. According to reliable sources, the drinks there are out of this world."
+    charles "Extra, extra! Read all about it! Beloved local diner now open on Friday nights. According to reliable sources, the drinks there are out of this world."
 
     show charles sit at Seat5
 
@@ -47,22 +47,23 @@ label Day2Block:
 
     bartender "Well done steak and broccoli?"
 
-    charles "And a whiskysour."
+    charles "And a whisky sour."
 
-    "Charles pulls out a large notebook, and began intermittently jotting things down."
+    "Charles pulls out a large notebook, and begins intermittently jotting things down."
 
-
-    "The door opens, and a young woman in her early 20's enters the bar, a large backpack behind her back."
+    "The door opens, and a young woman in her early twenties enters the bar, a large backpack on her back."
 
     show claire sit at Seat2
     with Dissolve(disFactor)
 
-    "Without saying a word, she setup her laptop and starts typing rapidly, the crisp clicking drowning out all other conversations. Upon seeing your smile, she softens her keystrokes, but maintains her pace."
+    "Without saying a word, she sets up her laptop and starts typing rapidly, the crisp clicking drowning out all other conversations."
+    
+    "Upon seeing your smile, she softens her keystrokes, but maintains her pace."
     
     show claire look player at Seat2
     with Dissolve(disFactor)
 
-    claire "Oh, do you guys have Wifi?"
+    claire "Oh, do you guys have wifi?"
     
     bartender "Sure do."
 
@@ -71,14 +72,14 @@ label Day2Block:
 
     claire "Awesome!  ...What's the password?"
 
-    bartender "Youhavetobuyadrink."
+    bartender "'Youhavetobuyadrink.'"
 
     show claire look left at Seat2
     with Dissolve(disFactor)
 
-    claire "Oh... erm Rum and Coke?"
+    claire "Oh... um, rum and coke?"
 
-    bartender "Alrighty."
+    bartender "All righty."
 
     #show claire look player at Seat2
     show claire look player at Seat2
@@ -94,14 +95,14 @@ label Day2Block:
     show claire look left at Seat2
     with Dissolve(disFactor)
     
-    bartender "Youhavetobuyadrink."
+    bartender "'Youhavetobuyadrink.'"
 
     show claire look player at Seat2
     with Dissolve(disFactor)
     
-    claire "but I al-"
+    claire "But I al-"
 
-    bartender "All lower case."
+    bartender "All lowercase."
 
     show  claire happy at Seat2
     with Dissolve(disFactor)
@@ -121,7 +122,7 @@ label Day2Block:
     show  claire happy at Seat2
     with Dissolve(disFactor)
     
-    "Claire continues to type while humming softly, occasionally sipping on her Rum and Coke."
+    "Claire continues to type while humming softly, occasionally sipping on her rum and coke."
 
     #scene black
     #with dissolve
@@ -134,7 +135,7 @@ label Day2Block:
     show charles sit lookLeft at Seat5
     with Dissolve(disFactor)
 
-    charles "Hey Elysia."
+    charles "Hey, Elysia."
 
     show elysia sit lookRight at Seat4
     with Dissolve(disFactor)
@@ -156,14 +157,14 @@ label Day2Block:
     show  elysia sit lookRight at Seat4
     with Dissolve(disFactor)
 
-    charles "Eloped with his fiance probably to some tropical paradise."
+    charles "Eloped with his fiancée, probably to some tropical paradise."
 
     show elysia smile lookRight at Seat4
     with Dissolve(disFactor)
 
     elysia "Luckyyyyy."
 
-    charles "This is his cousin who's taking over for a few weeks."
+    charles "This is his sibling who's taking over for a few weeks."
 
     show elysia smile lookPlayer at Seat4
     with Dissolve(disFactor)
@@ -177,17 +178,17 @@ label Day2Block:
     show elysia smile lookLeft at Seat4
     with Dissolve(disFactor)
 
-    elysia "Cool, big city. They probably all drink fancy mixed drinks up there huh? Probably with fancy names like The Presidential Special, or something like that."
+    elysia "Cool, big city. They probably all drink fancy mixed drinks up there, huh? Probably with fancy names like The Presidential Special, or something like that."
 
     show elysia smile lookPlayer at Seat4
     with Dissolve(disFactor)
 
-    bartender "That's not a bad name for a drink to be honest. But people usually just order beer or just pick out drinks at random because they like the name."
+    bartender "That's not a bad name for a drink, to be honest. But people usually just order beer or just pick out drinks at random because they like the name."
 
     show claire happy player at Seat2
     with Dissolve(disFactor)
 
-    "Claire signals that she would like another Rum and Coke, which you serves while maintaining conversation."
+    "Claire signals that she would like another rum and coke, which you serve while maintaining conversation."
 
     stop music fadeout 2.0
 
@@ -211,7 +212,7 @@ label Day2Block:
     show bgCounterTop
     with dissolve
 
-    #"Outside the bar, daylight fades away completely as evening turns to night."
+    #"Outside the bar, daylight fades away completely as evening turns to late night."
 
     show claire happy player at Seat2
     show charles sit at Seat5
@@ -224,7 +225,7 @@ label Day2Block:
     with Dissolve(disFactor)
 
 
-    "One of the patrons, Braxton, that frequents the diner during the day sits down at the bar, while Elysia and Charles engaged in a political debate."
+    "One of the patrons who frequents the diner during the day, Braxton, sits down at the bar, while Elysia and Charles are engaged in a political debate."
 
     show braxton sit lookRight at Seat1
     show elysia sit lookRight at Seat4
@@ -232,23 +233,23 @@ label Day2Block:
 
     elysia "Charles, you realize every single person who runs for office promises to 'cut taxes' right? It's all bullshit."
 
-    charles "All I'm saying, is that we should keep an open-mind."
+    charles "All I'm saying is that we should keep an open mind."
 
     elysia "I just want to know your opinion."
 
-    charles "I'm a journalist, I have no opinions."
+    charles "I'm a journalist. I have no opinions."
 
     show elysia closed at Seat4
     with Dissolve(disFactor)
 
     elysia "..."
 
-    charles "I mean I have no biases."
+    charles "I mean, I have no biases."
 
     show elysia sit lookRight at Seat4
     with Dissolve(disFactor)
 
-    elysia "So what's your opinion..."
+    elysia "So what's your opinion...?"
 
     show braxton sit lookLeft at Seat2
     show elysia closed at Seat4
@@ -260,7 +261,7 @@ label Day2Block:
     show elysia sit lookRight at Seat4
     with Dissolve(disFactor)
 
-    elysia "I mean what's up with the immigration policy. Deporting people doing jobs we wouldn't do."
+    elysia "I mean, what's up with the immigration policy? Deporting people doing jobs we wouldn't do."
 
     show frank sit beer lookRight at Seat1
     show braxton sit lookLeft at Seat2
@@ -268,7 +269,7 @@ label Day2Block:
     show elysia sit lookLeft at Seat4
     with Dissolve(disFactor)
 
-    frank "*Whisper* Dey tookk our jerrrbbbbs."
+    frank "*whisper* Dey tookk our jerrrbbbbs."
 
     show frank smile beer at Seat1
     show braxton smile at Seat2
@@ -289,17 +290,17 @@ label Day2Block:
 
     elysia "Who? Name one person we know."
 
-    charles "Let's just wait and see, I'm sure it's not that bad."
+    charles "Let's just wait and see. I'm sure it's not that bad."
 
     show elysia closed at Seat4
 
-    "Elysia sighs but declined pressing the issue further."
+    "Elysia sighs but declines pressing the issue further."
 
     show frank sit lookRight at Seat1
     show elysia sit lookRight at Seat4
     with Dissolve(disFactor)
 
-    frank "How's work Braxton?" 
+    frank "How's work, Braxton?" 
 
     show  braxton sit lookLeft at Seat2
     show frank sit beer lookRight at Seat1
@@ -320,7 +321,7 @@ label Day2Block:
     show frank drunk at Seat1
     with Dissolve(disFactor)
 
-    frank "Doesn't get easier when they grow older either."
+    frank "Doesn't get easier when they grow older, either."
 
     "Frank takes a long sip."
 
@@ -342,25 +343,25 @@ label Day2Block:
     show braxton smile lookLeft at Seat2
     with Dissolve(disFactor)
 
-    braxton " 'Literally' literally? Legitimately zero things worse?"
+    braxton "'Literally' literally? Legitimately zero things worse?"
 
     show braxton smile lookLeft at Seat2
     show frank drunk angry lookLeft at Seat1
     with Dissolve(disFactor)
 
-    frank "Oh stop."
+    frank "Oh, stop."
 
     show frank drunk at Seat1
     show braxton sit lookLeft at Seat2
     with Dissolve(disFactor)
 
-    "The two of them fell quiet as on the right side of the bar, Charles begins loudly describing his latest book idea."
+    "The two of them fall quiet as on the right side of the bar, Charles begins loudly describing his latest book idea."
 
     show elysia sit lookRight at Seat4
     show charles sit lookLeft at Seat5
     with Dissolve(disFactor)
 
-    charles "And that's when she discovered that the boy who creepily stared at her all this time, isn't a normal boy!"
+    charles "And that's when she discovered that the boy, who creepily stared at her all this time, isn't a normal boy!"
 
     show elysia smile lookRight at Seat4
     with Dissolve(disFactor)
@@ -372,14 +373,14 @@ label Day2Block:
     show frank drunk angry lookRight at Seat1
     show braxton sit lookRight at Seat2
     with Dissolve(disFactor)
-    "All the patrons turns to look at Charles."
+    "All of the patrons turn to look at Charles."
 
     braxton "That's pretty much Twilight... and literally the wors-"
 
     show frank smile beer at Seat1
     with Dissolve(disFactor)
 
-    frank "'Literally' Literally?-"
+    frank "'Literally' literally-?"
 
     show braxton angry at Seat2
     with Dissolve(disFactor)
@@ -389,14 +390,14 @@ label Day2Block:
     show frank beer smile at Seat1
     with Dissolve(disFactor)
 
-    frank "*Whisper* Team Jacob."
+    frank "*whisper* Team Jacob."
 
     show braxton sit lookLeft at Seat2
     show frank drunk at Seat1
     show elysia closed at Seat4
     with Dissolve(disFactor)
 
-    elysia "Oh god. Yeah, Charles don't write that..."
+    elysia "Oh, God. Yeah, Charles, don't write that..."
 
     charles "But my story has a robot in it...  a robot..."
 
@@ -417,22 +418,22 @@ label Day2Block:
     bartender "Hmm..."
 
     menu:
-        "'Fine Frank, here's another beer'":
+        "'Fine, Frank, here's another beer.'":
             #show text "" at truecenter
             show frank beer smile at Seat1
             show elysia sit lookLeft at Seat4
             show braxton sit lookLeft at Seat2
             with Dissolve(disFactor)
-            frank "That's right! Come to papa!"
+            frank "That's right! Come to Papa!"
             #show text "Frank will remember this..." at truecenter
             #with dissolve
             #"This is the result of the user choosing choice 1"
-        "'Nope Frank, I'm going to cut you off'":
+        "'Nope, Frank, I'm going to cut you off.'":
             show frank drunk angry lookRight at Seat1
             show elysia sit lookLeft at Seat4
             show braxton sit lookLeft at Seat2
             with Dissolve(disFactor)
-            frank "Aww, I've not had THAT many drinks..."
+            frank "Aww, I haven't had THAT many drinks..."
             #show text "" at truecenter
             #"This is the result of the user choosing the second choice."
     show text "Frank will remember this..." at truecenter
@@ -452,6 +453,8 @@ label Day2Block:
 
     hide text "Or maybe not..."
     with Dissolve(0.2)
+
+    pause 0.2
 
     scene black
     with dissolve
