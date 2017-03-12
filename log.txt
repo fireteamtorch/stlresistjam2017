@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 Sun Mar 12 08:15:39 2017
+=======
+<<<<<<< HEAD
+Sun Mar 12 07:34:19 2017
+=======
+Sun Mar 12 07:53:12 2017
+>>>>>>> 53bd407b8288f2861eacee29f080946ad61e5696
+>>>>>>> bf412fc4562fb8f58130c75deebb22363d3a4c08
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
  
@@ -253,7 +261,21 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
 Total time until interface ready: 3.32400012016s
+=======
+<<<<<<< HEAD
+Total time until interface ready: 0.930000066757s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.008000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.031000 seconds.
+- Frame drawn at 0.048000 seconds.
+- 0.048000 seconds to render 5 frames.
+=======
+Total time until interface ready: 3.73699998856s
+>>>>>>> bf412fc4562fb8f58130c75deebb22363d3a4c08
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
 - Frame drawn at 0.042000 seconds.
@@ -268,3 +290,4 @@ Load screen analysis took 0.04s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.01s
+>>>>>>> 53bd407b8288f2861eacee29f080946ad61e5696

@@ -217,7 +217,8 @@ label Day5Block:
 
 
 
-
+    scene black
+    with dissolve
 
     stop music fadeout 1.0
     pause 1
