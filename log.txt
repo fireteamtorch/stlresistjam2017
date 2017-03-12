@@ -1,34 +1,35 @@
-Sun Mar 12 13:38:19 2017
+Sun Mar 12 14:37:43 2017
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
  
 
-Bootstrap to the start of init.init took 0.27s
-Early init took 0.05s
+Bootstrap to the start of init.init took 0.28s
+Early init took 0.04s
 Loader init took 0.08s
-Loading error handling took 0.08s
-Loading script took 0.37s
+Loading error handling took 0.07s
+Loading script took 1.22s
 Loading persistent took 0.06s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.34s
-Loading analysis data took 0.12s
-Analyze and compile ATL took 0.02s
+Running init code took 0.39s
+Loading analysis data took 0.08s
+Analyze and compile ATL took 0.01s
 Index archives took 0.00s
-Dump and make backups. took 0.19s
+Backing up script files to 'C:\\Users\\David\\AppData\\Roaming/RenPy/backups\\stlresistjam2017':
+Dump and make backups. took 0.22s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 DPI scale factor: 1.500000
-Creating interface object took 0.12s
+Creating interface object took 0.11s
 Cleaning stores took 0.00s
-Init translation took 0.18s
-Build styles took 0.04s
-Load screen analysis took 0.05s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
+Init translation took 0.16s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.18s
 Prepare screens took 0.16s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
+Save pyanalysis. took 0.38s
+Save bytecode. took 0.14s
+Running _start took 0.01s
 Performance test:
 Interface start took 0.02s
 
@@ -253,18 +254,11 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 3.35799980164s
+Total time until interface ready: 5.01800012589s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.026000 seconds.
-- Frame drawn at 0.061000 seconds.
-- Frame drawn at 0.068000 seconds.
-- Frame drawn at 0.097000 seconds.
-- 0.097000 seconds to render 5 frames.
-Cleaning stores took 0.00s
-Init translation took 0.53s
-Build styles took 0.03s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.01s
+- Frame drawn at 0.050000 seconds.
+- Frame drawn at 0.089000 seconds.
+- Frame drawn at 0.098000 seconds.
+- Frame drawn at 0.133000 seconds.
+- 0.133000 seconds to render 5 frames.
