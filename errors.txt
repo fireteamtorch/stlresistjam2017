@@ -2,8 +2,14 @@
 errors listed below, and try again.
 
 
+<<<<<<< HEAD
+File "game/ending.rpy", line 50: expected 'comma or end of line' not found.
+    show text "BTW: I know the earlier line about changing the \ncode STRONGLY hints at the fact that we might have hidden\n secret content behind a few code changes \n we acknowledge it would be super clever but\nwe didn't have time to get fancy with it so...\n the ommission of that feature is a... \nmetaphor? Just... leave our code alone :D" at etext2 as luls 
+    ^
+=======
 File "game/Day7.rpy", line 232: end of line expected.
     with Dissolve(3);
                     ^
+>>>>>>> fb34cf55cfe2804078914143448f71fa9bb3889a
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187

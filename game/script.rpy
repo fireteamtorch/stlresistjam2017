@@ -123,6 +123,8 @@ label start:
 
     image charles explain = im.Scale("Charles-Explain.png", ScaleCharles, ScaleCharles)
 
+    image charles sad = im.Scale("Charles-Sad.png", ScaleCharles, ScaleCharles)
+
     image side charles = im.Scale("tempCharlesPortrait.png", ScaleCharles * PortraitScale * 0.8, ScaleCharles* PortraitScale * 0.8)
 
 
@@ -195,6 +197,9 @@ label start:
     scene black
     with dissolve
 
+<<<<<<< HEAD
+    jump Day1Block
+=======
     
     stop music fadeout 1.0
     
@@ -212,7 +217,8 @@ label start:
     pause 1.5
 
 
-    jump Day1Block
+    jump Day3Block
+>>>>>>> fb34cf55cfe2804078914143448f71fa9bb3889a
     #scene bg room
 
     # This shows a character sprite. A placeholder is used, but you can

@@ -32,15 +32,25 @@ label Day3Block:
     "Charles is here early, as usual. Braxton arrives shortly after, and settles down with a burger and some beer."
 
     show braxton sit lookPlayer at Seat4
+    show charles sit lookRight at Seat3
     with Dissolve(disFactor)
 
     charles "How's Jens?"
 
     bartender "Calls me once a week to make sure I didn't run the whole place into the ground, but otherwise everything seems good."
 
+    show charles smile at Seat3
+    with Dissolve(disFactor)
+
     charles "That's good."
 
+    show charles sit lookLeft at Seat3
+    with Dissolve(disFactor)
+
     bartender "Got new book ideas?"
+
+    show charles smile at Seat3
+    with Dissolve(disFactor)
 
     charles "Oh, I got a good one!"
 
@@ -52,7 +62,11 @@ label Day3Block:
     show braxton sit lookLeft at Seat4
     with Dissolve(disFactor)
 
+    show charles teased at Seat3
+    with Dissolve(disFactor)
     charles "Wow..."
+
+    show braxton sipping at Seat4
 
     "Braxton takes a long, deliberate sip of his beer, then waits a few moments."
 
@@ -62,6 +76,7 @@ label Day3Block:
     braxton "I was kidding. You know I'd buy your book, Charles."
 
     show braxton sit lookLeft at Seat4
+    show charles teased at Seat3
     with Dissolve(disFactor)
 
     charles "Yeah yeah, and then I'll turn around and you'll whisper 'Maybe when it's on sale... a big sale.'"
@@ -77,6 +92,7 @@ label Day3Block:
     braxton "What? Charles... how can you say that?"
 
     show claire sit at Seat5
+    show charles sit lookRight at Seat3
     with Dissolve(disFactor)
 
     "Claire enters, and immediately gets on her laptop."
@@ -104,11 +120,13 @@ label Day3Block:
     "Elysia enters the bar, and heads straight for the seat next to Charles."
 
     show elysia sit lookRight at Seat2
+    show charles sit lookLeft at Seat3
     with Dissolve(disFactor)
 
     elysia "What is up with your article? The guy had one moderately coherent speech, and all I hear day in and day out is how amazing he's gonna be."
 
     show elysia closed at Seat2
+    show charles explain at Seat3
     with Dissolve(disFactor)
 
     charles "It's not about that, it's about what he said. He's saying he will bring back manufacturing jobs."
@@ -122,6 +140,7 @@ label Day3Block:
     elysia "People like Claire can probably write some program that can just run a factory."
 
     show braxton sit lookLeft at Seat4
+    show charles sit lookRight at Seat3
     with Dissolve(disFactor)
 
     braxton "Some people still need to hear it, though."
@@ -188,6 +207,7 @@ label Day3Block:
     frank "You guys talking about jeeerrrrrbs?"
 
     show braxton angry at Seat4
+    show charles smile at Seat3
     show frank smile beer at Seat1
     with Dissolve(disFactor)
 
@@ -195,6 +215,7 @@ label Day3Block:
 
     show frank sit beer lookRight at Seat1
     show braxton sit lookLeft at Seat4
+    show charles sit lookLeft at Seat3
     with Dissolve(disFactor)
 
     frank "Jeeerrrrrbs?"

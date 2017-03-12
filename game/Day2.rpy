@@ -33,21 +33,32 @@ label Day2Block:
 
     "The door opens, and Charles comes in, waving a rolled up newspaper."
 
-    show charles sit at Seat2
+    show charles smile at Seat2
+    with Dissolve(disFactor)
 
     charles "Extra, extra! Read all about it! Beloved local diner now open on Friday nights. According to reliable sources, the drinks there are out of this world."
 
-    show charles sit at Seat5
+    show charles explain at Seat5
+    with Dissolve(disFactor)
 
     "Charles sits down with a wide grin."
 
     bartender "Thanks for setting up the ads."
 
+    show charles sit lookRight at Seat5
+    with Dissolve(disFactor)
+
     charles "Told you it wouldn't cost you much. Let me order... the same thing."
 
     bartender "Well done steak and broccoli?"
 
+    show charles sit lookLeft at Seat5
+    with Dissolve(disFactor)
+
     charles "And a whisky sour."
+
+    show charles sit lookRight at Seat5
+    with Dissolve(disFactor)
 
     "Charles pulls out a large notebook, and begins intermittently jotting things down."
 
@@ -142,7 +153,7 @@ label Day2Block:
 
     elysia "Charles."
 
-    show  charles sit lookPlayer at Seat5
+    show  charles smile at Seat5
     with Dissolve(disFactor)
 
     "Charles turns to you with a smile."
@@ -154,7 +165,8 @@ label Day2Block:
 
     elysia "Where's Jens?"
 
-    show  elysia sit lookRight at Seat4
+    show elysia sit lookRight at Seat4
+    show charles sit lookLeft at Seat5
     with Dissolve(disFactor)
 
     charles "Eloped with his fiancé, probably to some tropical paradise."
@@ -164,6 +176,7 @@ label Day2Block:
 
     elysia "Luckyyyyy."
 
+    show  charles smile at Seat5
     charles "This is his sibling who's taking over for a few weeks."
 
     show elysia smile lookPlayer at Seat4
@@ -171,8 +184,7 @@ label Day2Block:
 
     elysia "Nice to meet ya. You from out of town?"
 
-
-
+    show charles sit lookRight at Seat5
     bartender "Yeah, I worked as a bartender up in DC."
 
     show elysia smile lookLeft at Seat4
@@ -233,10 +245,12 @@ label Day2Block:
 
     elysia "Charles, you realize every single person who runs for office promises to 'cut taxes,' right? It's all bullshit."
 
+    show charles sit lookLeft at Seat5
     charles "All I'm saying is that we should keep an open mind."
 
     elysia "I just want to know your opinion."
 
+    show charles sit lookRight at Seat5
     charles "I'm a journalist. I have no opinions."
 
     show elysia closed at Seat4
@@ -244,6 +258,7 @@ label Day2Block:
 
     elysia "..."
 
+    show charles smile at Seat5
     charles "I mean, I have no biases."
 
     show elysia sit lookRight at Seat4
@@ -254,6 +269,7 @@ label Day2Block:
     show braxton sit lookLeft at Seat2
     show elysia closed at Seat4
     show frank sit beer lookRight at Seat1
+    show charles sit lookLeft at Seat5
     with Dissolve(disFactor)
 
     "Frank enters, and quickly orders a beer."
@@ -279,6 +295,7 @@ label Day2Block:
     "Braxton chuckles and smiles at Frank."
 
     show braxton sit lookLeft at Seat2
+    show charles explain at Seat5
     with Dissolve(disFactor)
 
     charles "I'm sure some people would."
@@ -289,6 +306,8 @@ label Day2Block:
     with Dissolve(disFactor)
 
     elysia "Who? Name one person we know."
+
+    show charles sit lookRight at Seat5
 
     charles "Let's just wait and see. I'm sure it's not that bad."
 
@@ -341,6 +360,7 @@ label Day2Block:
     frank "That's literally the worst thing I've heard all day."
 
     show braxton smile lookLeft at Seat2
+    show charles sit lookLeft at Seat5
     with Dissolve(disFactor)
 
     braxton "'Literally' literally? Legitimately zero things worse?"
@@ -358,20 +378,23 @@ label Day2Block:
     "The two of them fall quiet as on the right side of the bar, Charles begins loudly describing his latest book idea."
 
     show elysia sit lookRight at Seat4
-    show charles sit lookLeft at Seat5
+    show charles smile at Seat5
     with Dissolve(disFactor)
 
     charles "And that's when she discovered that the boy, who creepily stared at her all this time, isn't a normal boy!"
 
     show elysia smile lookRight at Seat4
+    show charles sit lookLeft at Seat5
     with Dissolve(disFactor)
 
     elysia "Let me guess, he's a vampire?"
 
+    show charles smile at Seat5
     charles "Yeah!"
 
     show frank drunk angry lookRight at Seat1
     show braxton sit lookRight at Seat2
+    show charles explain at Seat5
     with Dissolve(disFactor)
     "All of the patrons turn to look at Charles."
 
@@ -395,14 +418,18 @@ label Day2Block:
     show braxton sit lookLeft at Seat2
     show frank drunk at Seat1
     show elysia closed at Seat4
+    show charles lookRight at Seat5
     with Dissolve(disFactor)
 
     elysia "Oh, God. Yeah, Charles, don't write that..."
+
+    show charles explain at Seat5
 
     charles "But my story has a robot in it...  a robot..."
 
     show elysia sit lookRight at Seat4
     show frank drunk angry lookLeft at Seat1
+    show charles sit lookLeft at Seat5
     with Dissolve(disFactor)
 
     frank "Hey! Lemme get another beer."
