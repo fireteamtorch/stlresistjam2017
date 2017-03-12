@@ -123,6 +123,8 @@ label start:
 
     image charles explain = im.Scale("Charles-Explain.png", ScaleCharles, ScaleCharles)
 
+    image charles sad = im.Scale("Charles-Sad.png", ScaleCharles, ScaleCharles)
+
     image side charles = im.Scale("tempCharlesPortrait.png", ScaleCharles * PortraitScale * 0.8, ScaleCharles* PortraitScale * 0.8)
 
 
@@ -212,7 +214,7 @@ label start:
     pause 1.5
 
 
-    jump Day1Block
+    jump Day3Block
     #scene bg room
 
     # This shows a character sprite. A placeholder is used, but you can
