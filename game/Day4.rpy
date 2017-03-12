@@ -33,6 +33,8 @@ label Day4Block:
     show elysia sit lookLeft at Seat4
     charles "Mine's super different though, in my book they are called Zones, and there are thousands of them."
 
+    show elysia smile lookLeft at Seat4
+
     elysia "With Robots in them."
 
     charles "Indeed."
@@ -41,34 +43,56 @@ label Day4Block:
 
     show braxton sit lookRight at Seat2
     show claire sit at Seat5
+    show elysia closed  at Seat4
 
     charles "And the children fighting to the death thing is only a small part of the book."
 
-    show frank sit at Seat1
+    show frank sit beer at Seat1
+    show elysia sit lookLeft at Seat4
 
     "The door opens, and a small crowd of young men entered. Behind them, Frank walks in, and shakes raindrops off his hat."
 
     "This is turning out to be an unusually busy night, with a rowdy group of male college students sitting themselves down at one of the diner tables."
 
+    show braxton sit lookLeft at Seat2
+
     braxton "Is it raining?"
+
+    show frank sit beer lookRight at Seat1
 
     frank "Drizzling."
 
+    show elysia closed at Seat4
+
     elysia "Shit...Makes patrols way more tedious... But that's not for another few hours."
+
+    show elysia sit lookLeft at Seat4
+    show frank smile beer at Seat1
 
     frank "Better get the drinking started then."
 
+    show frank sit lookRight at Seat1
+    show braxton smile at Seat2
+
     braxton "You offering to buy, Frank?"
+
+    show frank smile beer at Seat1
 
     frank "Nah."
 
+    show braxton smile lookRight at Seat2
     show claire sit lookLeft at Seat5
 
     claire "I can buy everyone a round."
 
     show claire sit lookPlayer at Seat5
+    show frank sit beer lookPlayer at Seat1
+
 
     "Frank looks over at you, and shakes his head."
+
+    show frank sit lookRight at Seat1
+    show claire sit lookLeft at Seat5
 
     frank "Nah, we can get our own drinks."
 
@@ -77,33 +101,58 @@ label Day4Block:
     "Claire sighs, but says nothing."
 
     show claire sit at Seat5
+    show elysia smile lookPlayer at Seat4
 
     elysia "So Charles wants to write a book where children in different areas fight to the death."
 
+    show frank smile at Seat1
+    show elysia smile lookLeft at Seat4
+    show braxton smile lookPlayer at Seat2
+
     frank "Battle Royale."
+
+    show frank smile beer lookRight at Seat1
+    show elysia smile lookPlayer at Seat4
+    show braxton smile lookRight at Seat2
 
     elysia "Or the Hunger Games."
 
+    show frank smile beer at Seat1
+
     frank "Battle Royale's better: grittier, better commentary. A lot more teenagers but less angst. It's pretty good."
+
+    show charles sit lookLeft at Seat3
+    show frank sit beer lookRight at Seat1
 
     charles "Frank, how do you know so much?"
 
+    show frank smile beer at Seat1
+
     frank "Audiobooks, nothing better to do on cross-state deliveries."
 
+    #show frank sit beer at Seat1
     show claire sit lookLeft at Seat5
+    show braxton sit lookLeft at Seat2
+    show frank sit beer lookRight at Seat1
+    show elysia sit lookLeft at Seat4
 
     "One of the people sitting at diner table approaches the bar to get another beer. The drunk young man tries to get Claire's attention, but she shakes her head and declines to make small talk."
     
-    show claire sit at Seat5
+    show braxton sit lookRight at Seat2
+    show claire angry up at Seat5
 
     "He grabs the beer and returns to his table, cursing constantly under his breath as he walks away."
 
+    show braxton sit lookLeft at Seat2
+    show claire sit at Seat5
     show frank angry lookRight at Seat1 behind bgCounterTop
+    show elysia sit lookRight at Seat4
    
     "Everyone at the bar glared over angrily, and Frank starts to get up."
 
     hide frank angry lookRight
     show frank angry lookRight at Seat1
+    show elysia sit lookLeft at Seat4
 
     elysia "Frank, don't do it."
 
@@ -116,7 +165,12 @@ label Day4Block:
 
     frank "Just want to teach that boy some manners."
 
+    show elysia sit lookLeft at Seat4
+
     elysia "Frank!"
+
+    show frank angry lookLeft at Seat1
+    show elysia closed at Seat4
 
     frank "WHAT?!? With words!"
 
@@ -124,6 +178,8 @@ label Day4Block:
     show braxton sit lookRight at Seat2 behind bgCounterTop
 
     "Frank and Braxton continues to get up."
+
+    show elysia sit lookLeft at Seat4
 
     elysia "And why are you getting up?"
 
@@ -135,12 +191,17 @@ label Day4Block:
 
     "Frank and Braxton looks over at you, and turns to find Elysia glare at them."
 
+    show frank angry lookLeft at Seat1 
+
     frank "What?! Can't a man go to the bathroom?"
+
+    show frank angry lookRight at Seat1
+    show braxton sit lookPlayer at Seat2
 
     "Braxton shrugs again."
 
-    hide braxton sit lookRight
-    hide frank angry lookRight
+    hide braxton sit 
+    hide frank angry 
 
     "Frank and Braxton leave to go to the bathroom."
 
