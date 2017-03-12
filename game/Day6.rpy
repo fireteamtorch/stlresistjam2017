@@ -96,7 +96,7 @@ label Day6Block:
     
     braxton "Heh, I get enough sarcasm from the kids. Seriously."
     
-    bartender "Jens cut his vacation short. He and the fianceé are rushing back."
+    bartender "Jens cut his vacation short. He and the fiancé are rushing back."
     
     show braxton sit lookPlayer at Seat3
 

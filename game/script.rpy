@@ -45,6 +45,11 @@ label start:
     
     #image bgCounterTop = "bgBarTop1080.png"
     image bgCounterTop = "tempBarCounter.png"
+    
+    image bgTeamTBA = "TeamTBA-Screen.png"
+    image bgPaintedBlade = "PaintedBlade-Screen.png"
+    image bgResistJam = "ResistJamScreen.png"
+    image bgMadeInSTL = "MadeInSTL-Screen.png"
 
     #image claire sit = 'ClaireLook1.png'
     image claire sit = im.Scale("ClaireLook1.png", ScaleClaire, ScaleClaire)
@@ -181,8 +186,23 @@ label start:
     # images directory to show it.
     scene black
     with dissolve
+    
+    stop music fadeout 1.0
+    
+    scene bgTeamTBA
+    with fade
+    pause 1.5
+    scene bgPaintedBlade
+    with fade
+    pause 1.5
+    scene bgResistJam
+    with fade
+    pause 1.5
+    scene bgMadeInSTL
+    with fade
+    pause 1.5
 
-    jump EndingBlock
+    jump Day1Block
     #scene bg room
 
     # This shows a character sprite. A placeholder is used, but you can
