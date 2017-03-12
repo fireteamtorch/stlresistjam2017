@@ -21,7 +21,9 @@ label Day3Block:
     show bgCounterTop
     with dissolve
 
-    play music "noir_v002_lpf_LOOPedit.wav"
+    #play music "noir_v002_lpf_LOOPedit.wav"
+    play music "lux_v001_lpf_LOOPedit.wav"
+    
 
     show charles sit at Seat3
     show braxton sit lookLeft at Seat4

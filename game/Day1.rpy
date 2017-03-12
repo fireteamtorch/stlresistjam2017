@@ -3,7 +3,7 @@ label Day1Block:
     scene black
     with dissolve
 
-    #jump Day3Block
+    jump Day4Block
 
     play music "tempDayTitleShortestDeNoise.mp3" noloop
 
@@ -31,7 +31,8 @@ label Day1Block:
     with dissolve
 
     #play music "noir_test_v001_lowpassEQ.mp3"
-    play music "noir_v002_lpf_LOOPedit.wav"
+    #play music "noir_v002_lpf_LOOPedit.wav"
+    play music "lux_v001_lpf_LOOPedit.wav"
 
     "Well, Jens did it again..."
     "Went off somewhere fun and made you be the responsible one."
@@ -60,6 +61,8 @@ label Day1Block:
 
     show bgCounterTop
     with dissolve
+
+    play music "noir_v002_lpf_LOOPedit.wav"
 
     #show charles sit at Center(xcenter = Seat2.xcenter,ycenter = (Seat2.ycenter))
     #show charles sit at Seat2

@@ -112,9 +112,13 @@ label start:
     image braxton sit lookLeft = im.Scale("Brock-LookLeft.png", ScaleCharles, ScaleCharles)
     image braxton sit lookRight = im.Scale("Brock-LookRight.png", ScaleCharles, ScaleCharles)
 
+    image braxton closed = im.Scale("Brock-Neutral-Eyes-Closed.png", ScaleCharles, ScaleCharles)
+    image braxton sipping = im.Scale("Brock-Sipping-Beer.png", ScaleCharles, ScaleCharles)
+
     image braxton angry = im.Scale("Brock-Angry.png", ScaleCharles, ScaleCharles)
 
     image braxton smile = im.Scale("Brock-PlayerLook-Smile.png", ScaleCharles, ScaleCharles)
+    image braxton smile lookRight = im.Scale("Brock-LookRight-Smile.png", ScaleCharles, ScaleCharles)
 
     image side braxton = im.Scale("tempBrockPortrait.png", ScaleCharles * PortraitScale * 0.8, ScaleCharles* PortraitScale * 0.8)
 
