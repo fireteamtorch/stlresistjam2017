@@ -110,8 +110,8 @@ label start:
         repeat
 
     image charles sit = im.Scale("Charles-Player-LookEdit.png", ScaleCharles, ScaleCharles)
-    image charles sit lookLeft = im.Scale("Charles-Player-Look-Left.png", ScaleCharles, ScaleCharles)
-    image charles sit lookRight = im.Scale("Charles-Player-LookEdit.png", ScaleCharles, ScaleCharles)
+    image charles sit lookLeft = im.Scale("Charles-Look-Left.png", ScaleCharles, ScaleCharles)
+    image charles sit lookRight = im.Scale("Charles-Player-Look.png", ScaleCharles, ScaleCharles)
     image charles smile = im.Scale("Charles-Player-Look-Smile.png", ScaleCharles, ScaleCharles)
 
     image charles teased = im.Scale("Charles-Look-Teased.png", ScaleCharles, ScaleCharles)
@@ -190,7 +190,7 @@ label start:
     scene black
     with dissolve
 
-    jump EndingBlock
+    jump Day1Block
     #scene bg room
 
     # This shows a character sprite. A placeholder is used, but you can
