@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("STLResistJam")
+define config.name = _("Bar Story")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -143,7 +143,7 @@ define config.save_directory = "STLResistJam-1489209215"
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/frank_icon.png"
 
 
 ## Build configuration #########################################################

@@ -5,10 +5,10 @@ label Day7Block:
 
     play music "jingle_dayTitleDenoise.wav" noloop
 
-    show text "Week 7" at Transform(xalign = 0.5, yalign = 0.47) as text1
+    show text "{size=90}Week 7{/size}" at Transform(xalign = 0.5, yalign = 0.45) as text1
     #show top_text at truecenter
     with Dissolve(2.0)
-    show text "Marching towards the future" at Transform(xalign = 0.5, yalign = 0.53) as text2
+    show text "{size=70}Marching Toward the Future{/size}" at Transform(xalign = 0.5, yalign = 0.55) as text2
     with Dissolve(2.0)
     
     pause 1

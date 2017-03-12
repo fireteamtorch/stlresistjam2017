@@ -5,10 +5,10 @@ label Day6Block:
 
     play music "jingle_dayTitleDenoise.wav" noloop
 
-    show text "Week 6" at Transform(xalign = 0.5, yalign = 0.47) as text1
+    show text "{size=90}Week 6{/size}" at Transform(xalign = 0.5, yalign = 0.45) as text1
     #show top_text at truecenter
     with Dissolve(2.0)
-    show text "Picking up the pieces" at Transform(xalign = 0.5, yalign = 0.53) as text2
+    show text "{size=70}Picking Up the Pieces{/size}" at Transform(xalign = 0.5, yalign = 0.55) as text2
     with Dissolve(2.0)
     
     pause 1
@@ -290,7 +290,7 @@ label Day6Block:
 
     stop music fadeout 1.0
     pause 1
-    show text "End of Day" at truecenter as text3
+    show text "{size=70}End of Day{/size}" at truecenter as text3
     with dissolve
     play music "jingle_endOfDayDenoise.wav" noloop
     pause 2

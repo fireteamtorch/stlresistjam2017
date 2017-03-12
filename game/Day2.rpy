@@ -7,10 +7,10 @@ label Day2Block:
     #image top_text = ParameterizedText(text = "Week 1\n\nNew Faces", xalign=0.5, yalign=0.0, text_size = 80)
 
     #show text "Week 1\nNew Faces" at truecenter with text_size = 80
-    show text "Week 2" at Transform(xalign = 0.5, yalign = 0.47) as text1
+    show text "{size=90}Week 2{/size}" at Transform(xalign = 0.5, yalign = 0.45) as text1
     #show top_text at truecenter
     with Dissolve(2.0)
-    show text "A night to remember" at Transform(xalign = 0.5, yalign = 0.53) as text2
+    show text "{size=70}A Night to Remember{/size}" at Transform(xalign = 0.5, yalign = 0.55) as text2
     with Dissolve(2.0)
     
     pause 1
@@ -418,7 +418,7 @@ label Day2Block:
     show braxton sit lookLeft at Seat2
     show frank drunk at Seat1
     show elysia closed at Seat4
-    show charles lookRight at Seat5
+    show charles sit lookRight at Seat5
     with Dissolve(disFactor)
 
     elysia "Oh, God. Yeah, Charles, don't write that..."
@@ -491,7 +491,7 @@ label Day2Block:
 
     stop music fadeout 1.0
     pause 1
-    show text "End of Day" at truecenter as text3
+    show text "{size=70}End of Day{/size}" at truecenter as text3
     with dissolve
     play music "jingle_endOfDayDenoise.wav" noloop
     pause 2

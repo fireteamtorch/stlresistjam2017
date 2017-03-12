@@ -198,7 +198,6 @@ label start:
     with dissolve
     
     stop music fadeout 1.0
-    jump Day7Block
     
     scene bgTeamTBA
     with fade
@@ -214,12 +213,7 @@ label start:
     pause 1.5
 
     jump Day1Block
-
-<<<<<<< HEAD
-    jump Day1Block
     #scene bg room
-=======
->>>>>>> 8fc61d84f341a072639eed7e91e6b82115de3662
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images

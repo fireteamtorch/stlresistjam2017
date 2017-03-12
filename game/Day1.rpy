@@ -281,7 +281,7 @@ label Day1Block:
 
     stop music fadeout 1.0
     pause 1
-    show text "End of Day" at truecenter as text3
+    show text "{size=70}End of Day{/size}" at truecenter as text3
     with dissolve
     play music "jingle_endOfDayDenoise.wav" noloop
     pause 2
