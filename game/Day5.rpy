@@ -3,7 +3,7 @@ label Day5Block:
     scene black
     with dissolve
 
-    play music "tempDayTitleShortestDeNoise.mp3" noloop
+    play music "jingle_dayTitleDenoise.wav" noloop
 
     show text "Week 5" at Transform(xalign = 0.5, yalign = 0.47) as text1
     #show top_text at truecenter
@@ -22,7 +22,7 @@ label Day5Block:
     with dissolve
 
     play music "noir_v002_lpf_LOOPedit.wav"
-    #play music "lux_v001_lpf_LOOPedit.wav"
+    #play music "lux_v001_lpf_LOOPedit.wav" fadein 1.0
 
     "Frank walks in, looking disheveled."
 
@@ -388,7 +388,7 @@ label Day5Block:
     pause 1
     show text "End of Day" at truecenter as text3
     with dissolve
-    play music "tempEndofDay.mp3" noloop
+    play music "jingle_endOfDayDenoise.wav" noloop
     pause 2
     hide text3
     with dissolve
