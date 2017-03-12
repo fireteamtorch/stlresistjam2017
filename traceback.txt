@@ -1,99 +1,39 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-<<<<<<< HEAD
-  File "game/ending.rpy", line 36, in script
-    with dissolve
-Exception: Unknown text tag u'\x08'
-=======
-  File "game/Credits.rpy", line 9, in script
-    with Fade(2.0)
-TypeError: Fade() takes at least 3 arguments (3 given)
->>>>>>> fb34cf55cfe2804078914143448f71fa9bb3889a
+After initialization, but before game start.
+  File "renpy/common/00start.rpy", line 76, in _init_language
+    renpy.change_language(language)
+  File "game/screens.rpy", line 154, in <module>
+    xpos gui.dialogue_xpos
+AttributeError: 'StoreModule' object has no attribute 'dialogue_xpos'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-<<<<<<< HEAD
-  File "game/ending.rpy", line 36, in script
-    with dissolve
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\ast.py", line 1275, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\exports.py", line 1381, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2096, in do_with
-    clear=clear)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2526, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2883, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\display\core.py", line 1955, in draw_screen
-    renpy.config.screen_height,
-  File "renpy/display/render.pyx", line 427, in renpy.display.render.render_screen (gen\renpy.display.render.c:6806)
-    rv = render(root, width, height, 0, 0)
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 693, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\display\transition.py", line 361, in render
-    top = render(self.new_widget, width, height, st, at)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 693, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 693, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "renpy/display/accelerator.pyx", line 108, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:2027)
-    cr = render(child, widtho, heighto, st - self.child_st_base, at)
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\display\image.py", line 387, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\display\image.py", line 208, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\text\text.py", line 1732, in render
-    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\text\text.py", line 550, in __init__
-    self.paragraphs = self.segment(text.tokens, style, renders, text)
-  File "C:\Users\ThatYiGuy\Downloads\renpy-6.99.12.4-sdk\renpy\text\text.py", line 1040, in segment
-    raise Exception("Unknown text tag %r" % text)
-Exception: Unknown text tag u'\x08'
-=======
-  File "game/Credits.rpy", line 9, in script
-    with Fade(2.0)
-  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\ast.py", line 1275, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\exports.py", line 1381, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2096, in do_with
-    clear=clear)
-  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2526, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2746, in interact_core
-    new_widget=layers_root)
-  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\curry.py", line 38, in __call__
-    **dict(self.kwargs.items() + kwargs.items()))
-TypeError: Fade() takes at least 3 arguments (3 given)
->>>>>>> fb34cf55cfe2804078914143448f71fa9bb3889a
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 295, in bootstrap
+    renpy.main.main()
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\main.py", line 487, in main
+    run(restart)
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\main.py", line 69, in run
+    renpy.translation.init_translation()
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\translation\__init__.py", line 506, in init_translation
+    renpy.store._init_language()  # @UndefinedVariable
+  File "renpy/common/00start.rpy", line 76, in _init_language
+    renpy.change_language(language)
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\translation\__init__.py", line 583, in change_language
+    new_change_language(tl, language)
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\translation\__init__.py", line 553, in new_change_language
+    i.apply()
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\ast.py", line 2224, in apply
+    value = renpy.python.py_eval(expr)
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\python.py", line 1749, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\python.py", line 1743, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/screens.rpy", line 154, in <module>
+    xpos gui.dialogue_xpos
+AttributeError: 'StoreModule' object has no attribute 'dialogue_xpos'
 
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
-STLResistJam 1.0
+Bar Story 1.1

@@ -105,8 +105,8 @@ define gui.show_name = True
 ## time.
 
 ## The height of the textbox containing dialogue.
-# define gui.textbox_height = 278
-define gui.textbox_height = 400
+define gui.textbox_height = 278
+# define gui.textbox_height = 400
 
 ## The placement of the textbox vertically on the screen. 0.0 is the top, 0.5 is
 ## center, and 1.0 is the bottom.
@@ -118,8 +118,8 @@ define gui.textbox_yalign = 1.0
 # define gui.name_xpos = 365
 define gui.name_xpos = 365
 # define gui.name_ypos = 0
-# define gui.name_ypos = 20
-define gui.name_ypos = 160
+define gui.name_ypos = 20
+# define gui.name_ypos = 160
 
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
@@ -144,8 +144,8 @@ define gui.namebox_tile = False
 ## center.
 define gui.dialogue_xpos = 402
 # define gui.dialogue_ypos = 75
-# define gui.dialogue_ypos = 85
-define gui.dialogue_ypos = 230
+define gui.dialogue_ypos = 85
+# define gui.dialogue_ypos = 230
 
 ## The maximum width of dialogue text, in pixels.
 define gui.dialogue_width = 1116
