@@ -2,16 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 200: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/script.rpy", line 202: expected statement.
-    =======
-          ^
-
-File "game/script.rpy", line 221: expected statement.
-    >>>>>>> fb34cf55cfe2804078914143448f71fa9bb3889a
-                                                    ^
+File "game/screens.rpy", line 322: u'jump' is not a keyword argument or valid child for the textbutton statement.
+    textbutton _("Credits") action jump Credits
+                                       ^
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187

@@ -54,13 +54,13 @@ label EndingBlock:
 
     show text "Isn't it interesting..." at epos1 as endingtext1
     with dissolve
-    pause 3
+    $ renpy.pause(3.0,hard='True') 
     hide endingtext1
     with dissolve
   
     show text "sometimes the only choices you see" at epos2 as endingtext2
     with dissolve
-    pause 3
+    $ renpy.pause(3.0,hard='True') 
     hide endingtext2
     with dissolve
     
@@ -69,24 +69,24 @@ label EndingBlock:
     
     show text "are ones of little consequence." at epos3 as endingtext3
     with dissolve
-    pause 3
+    $ renpy.pause(3.0,hard='True') 
     hide endingtext3
     with dissolve
     pause 0.5
     
     show text "That is what tends to happen... when you play someone else's game." at epos3b as profound1
     with dissolve
-    pause 4
+    $ renpy.pause(4.0,hard='True') 
     hide profound1
     with dissolve
     show text "When you stick by the rules, the game stays the same, no matter how many times you play it." at epos3b as profound2
     with dissolve
-    pause 4
+    $ renpy.pause(4.0,hard='True') 
     hide profound2
     with dissolve
     show text "Sometimes, a small change in the code... can unlock many possibilities." at epos3b as profound3
     with dissolve
-    pause 4   
+    $ renpy.pause(4.0,hard='True')    
     hide profound3
     with dissolve
     
@@ -96,23 +96,23 @@ label EndingBlock:
     
     show text "       Rude...It mattered to me!" at epos3b as endingtext4
     with dissolve
-    pause 3
+    $ renpy.pause(3.0,hard='True') 
     hide endingtext4
     hide frank drunk
     hide sweetchoices
     
     show text "My bad, Frank... trying to be all deep and philosophical here." at epos3b as sorryfrank1
     with dissolve
-    pause 5
+    $ renpy.pause(5.0,hard='True') 
     hide sorryfrank1
     pause 0.5
                
     show text "How much must you learn about someone before you have them..." at etext2 as deeptext1
     with dissolve
-    pause 3
+    $ renpy.pause(3.0,hard='True') 
     show text "{size=+10}Figured out?{/size}" at epos2 as deeptext2
     with dissolve
-    pause 3
+    $ renpy.pause(3.0,hard='True') 
     
     hide deeptext1 
     hide deeptext2    
@@ -123,27 +123,27 @@ label EndingBlock:
     with dissolve
     show text "stayed home instead of marching against dangerous deregulations." at quotespot2 as quotebasic
     with dissolve
-    pause 2
+    $ renpy.pause(2.0,hard='True') 
     hide clairequote
     show text "  Charles" at quotespot1 as charlesquote
     with dissolve
-    pause 4
+    $ renpy.pause(4.0,hard='True') 
     hide charlesquote
-    pause 2
+    $ renpy.pause(2.0,hard='True') 
     
     show text "What if:" at quotespot3 as quoteadv
     with dissolve
     show text "   Frank" at quotespot1 as franksquote
     with dissolve
-    pause 2
+    $ renpy.pause(2.0,hard='True') 
     hide franksquote
     show text "   Elysia" at quotespot1 as elysiasquote
     with dissolve
-    pause 2
+    $ renpy.pause(2.0,hard='True') 
     hide elysiasquote
     show text " Braxton" at quotespot1 as braxtonsquote
     with dissolve
-    pause 2
+    $ renpy.pause(2.0,hard='True') 
     hide braxtonsquote
     hide quoteadv
     hide quotebasic
@@ -152,7 +152,7 @@ label EndingBlock:
    
     show text "{size=+10}How often do we judge people by a single decision,\nand make assumptions about their motivations?{/size}" at epos3 as datquote
     with dissolve
-    pause 8
+    $ renpy.pause(8.0,hard='True') 
     hide datquote
     
     show text "{size=+10}Thank you for playing!{/size}" at epos3 as finalthanks

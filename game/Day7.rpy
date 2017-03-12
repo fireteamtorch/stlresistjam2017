@@ -229,7 +229,7 @@ label Day7Block:
     "Jens hugs you warmly as you drop off the keys, and promises to come up for Thanksgiving."
     
     "It's going to be a long drive home..."
-    with Dissolve(3)
+    with dissolve
 
 
     # stop music fadeout 1.0

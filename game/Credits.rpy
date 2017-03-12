@@ -7,7 +7,8 @@ label CreditsBlock:
     
     show text "{size=100}'Bar Story'{/size}{size=60}\n\nA Resist Jam Game\nMarch 3 - 12, 2017\nMade in Ren'Py{/size}" at truecenter
     with Fade(1.0, 0.0, 1.0)
-    pause 4.0
+    $ renpy.pause(2.0,hard='True')
+    pause 2.0
     
     show text "{size=100}Concept & Design{/size}{size=60}\n\nChris House\nDavid Song\nJeffrey Hsu\nJonathan Bo\nSarah Wahoff\nYi Zhu{/size}" at truecenter
     with Fade(1.0, 0.0, 1.0)
