@@ -194,8 +194,7 @@ label start:
     # images directory to show it.
     scene black
     with dissolve
-<<<<<<< HEAD
-=======
+
     
     stop music fadeout 1.0
     
@@ -211,7 +210,7 @@ label start:
     scene bgMadeInSTL
     with fade
     pause 1.5
->>>>>>> 86acb066cc5e75768730ecacd8a3018109f0fc5f
+
 
     jump Day1Block
     #scene bg room

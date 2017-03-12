@@ -3,11 +3,6 @@ label Day1Block:
     scene black
     with dissolve
 
-<<<<<<< HEAD
-    #jump Day6Block
-=======
-    jump Day7Block
->>>>>>> 86acb066cc5e75768730ecacd8a3018109f0fc5f
 
     play music "jingle_dayTitleDenoise.wav" noloop
 
