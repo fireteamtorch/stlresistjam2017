@@ -1,20 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/Day7.rpy", line 73, in script
+  File "game/Day5.rpy", line 358, in script
     
-Exception: Sayer 'braxon' is not defined.
+  File "game/Day5.rpy", line 358, in <module>
+    
+NameError: name 'Seat2ea' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/Day7.rpy", line 73, in script
+  File "game/Day5.rpy", line 358, in script
     
-  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\ast.py", line 593, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\ast.py", line 509, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'braxon' is not defined.
+  File "D:\GameDev\Github\STL Resist Jam\renpy-6.99.12.4-sdk\renpy\ast.py", line 1075, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "D:\GameDev\Github\STL Resist Jam\renpy-6.99.12.4-sdk\renpy\ast.py", line 1036, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "D:\GameDev\Github\STL Resist Jam\renpy-6.99.12.4-sdk\renpy\python.py", line 1749, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\GameDev\Github\STL Resist Jam\renpy-6.99.12.4-sdk\renpy\python.py", line 1743, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/Day5.rpy", line 358, in <module>
+    
+NameError: name 'Seat2ea' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187

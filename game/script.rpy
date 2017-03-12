@@ -80,6 +80,8 @@ label start:
 
     image frank smile = im.Scale("Frank-Smile1.png", ScaleFrank, ScaleFrank)
     image frank smile beer = im.Scale("Frank-Smile2.png", ScaleFrank, ScaleFrank)
+
+    image frank sad = im.Scale("Frank-Sad1.png", ScaleFrank, ScaleFrank)
     #image frank smile = im.Scale("Frank-Smile1.png", ScaleFrank, ScaleFrank)
 
     image frank drunk = im.Scale("Frank-BeerDrunk1.png", ScaleFrank, ScaleFrank)
