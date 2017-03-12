@@ -317,7 +317,7 @@ screen navigation():
 
             textbutton _("Main Menu") action MainMenu()
 
-        textbutton _("About") action ShowMenu("about")
+#        textbutton _("About") action ShowMenu("about")
 
         if renpy.variant("pc"):
 
