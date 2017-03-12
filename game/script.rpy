@@ -158,6 +158,19 @@ label start:
         xcenter ((9 *factorSeat) + factorSeatOffset)
         yalign 0.25 + factorSeatHeightOffset
 
+
+
+    transform Seat3half:
+        xcenter ((6 *factorSeat) + factorSeatOffset)
+        yalign 0.25 + factorSeatHeightOffset
+
+    transform Seat4half:
+        xcenter ((8 *factorSeat) + factorSeatOffset)
+        yalign 0.25 + factorSeatHeightOffset
+
+
+
+
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
