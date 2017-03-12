@@ -105,7 +105,7 @@ label Day4Block:
 
     elysia "So Charles wants to write a book where children in different areas fight to the death."
 
-    show frank smile at Seat1
+    show frank smile beer at Seat1
     show elysia smile lookLeft at Seat4
     show braxton smile lookPlayer at Seat2
 
@@ -237,7 +237,7 @@ label Day4Block:
 
     "Frank chugs his beer then asks for more."
 
-    braxton "So... what's new Charles."
+    braxton "So... what's new Charles?"
     
     show claire sit lookLeft at Seat5
 
@@ -247,49 +247,76 @@ label Day4Block:
 
     "Everyone ponders Charles' words quietly for a few moments."
 
+    show claire sit at Seat5
+
     claire "..."
+
+    show braxton sit lookPlayer at Seat2
 
     braxton "..."
 
+    show frank sit beer lookLeft at Seat1
+
     frank "..."
+
+    show elysia closed at Seat4 
 
     elysia "..."
 
+    show frank drunk at Seat1
+    show braxton sit lookRight at Seat2
+    show charles sit lookRight at Seat3
+    show elysia sit lookRight at Seat4
     show claire sit lookLeft at Seat5
 
     claire "So do you know any books or films?"
 
-    
+    show elysia sit lookLeft at Seat4
 
     charles "I'm well-educated in the literary and cinematic arts."
 
-    bartender "like… name a movie you like."
+    bartender "Like... name a movie you like."
 
     charles "Theodore Rex."
 
+    show braxton sit lookPlayer at Seat2
+
     braxton "I've never even heard of that one."
+
+    show braxton sit lookLeft at Seat2
+    show frank drunk angry lookLeft at Seat1
 
     frank "I saw it once. Whoopi Goldberg's in it. She's a robot cop that's hunting down a dinosaur killer."
 
+    show frank drunk at Seat1
     show claire sit lookPlayer at Seat5
 
-    claire "That… can't be a movie, right? Those are just words put together."
+    claire "That... can't be a movie, right? Those are just words put together."
 
     show claire sit lookLeft at Seat5
 
     charles "I'll have you know it's one of the greatest pieces of cinematic history known to man."
 
     show claire sit at Seat5
+    show frank drunk angry lookRight at Seat1
 
     frank "It's crap."
 
+    show frank drunk at Seat1
+
     charles "Frank!"
+
+    show frank drunk angry lookLeft at Seat1
 
     frank "Total crap."
 
+    show frank drunk at Seat1
+
     charles "I can't believe this. Everyone's ganging up against me."
 
-    bartender "Nobody's against you, Charlie."
+    bartender "Nobody's against you, Charles."
+
+    show braxton smile lookRight at Seat2 
 
     braxton "I kind of am."
 
@@ -297,11 +324,22 @@ label Day4Block:
 
     claire "Wait, Dad, tell me more about this movie."
 
+    show frank drunk at Seat1
+    show braxton sit lookLeft at Seat2
+
     frank "Uh… let me think it over."
+
+    show frank drunk at Seat1
 
     "Frank pauses to take a swig."
 
+    show frank drunk at Seat1
+    show braxton sit lookLeft at Seat2
+    show elysia sit lookLeft at Seat3
+
     frank "It's like a movie about dinosaur racism? And Whoopi's partner is a dinosaur that eats too many cookies. He makes this machine to fling cookies at him."
+
+    show braxton sit lookRight at Seat2
 
     charles "And that was hilarious! And had a great message about tolerance!"
 
@@ -312,6 +350,8 @@ label Day4Block:
     claire "Oh my God, this is a real movie."
 
     show claire sit at Seat5
+    show braxton sit lookRight at Seat2
+    show elysia sit lookRight at Seat3
 
     braxton "Let me see that... Ho-ly cow."
 
@@ -325,11 +365,11 @@ label Day4Block:
 
     "Everyone is silent, except Frank, who continues drinking."
     
-    charles "Guys? Guys….? Come on, guys?"
+    charles "Guys? Guys...? Come on, guys?"
 
 
-
-
+    scene black
+    with dissolve
 
     stop music fadeout 1.0
     pause 1
