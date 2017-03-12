@@ -243,7 +243,7 @@ label Day6Block:
     
     show elysia closed at Seat2
 
-    "Elysia nods at you appreciatively for the beer before taking a sip. She winces due to the injured lip but sighs appreciatively after the cold sip."
+    "Elysia nods at you appreciatively for the beer before taking a sip. She winces due to the injured lip but sighs with relief after the cold sip."
     
     show elysia sit lookRight at Seat2
 
@@ -296,7 +296,7 @@ label Day6Block:
     pause 2
     hide text3
     with dissolve
-    pause 3
+    pause 1
 
     jump Day7Block
 
