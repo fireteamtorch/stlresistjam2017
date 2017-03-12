@@ -3,7 +3,7 @@ label Day1Block:
     scene black
     with dissolve
 
-    jump Day2Block
+    jump Day3Block
 
     play music "tempDayTitleShortestDeNoise.mp3" noloop
 

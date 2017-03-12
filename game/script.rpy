@@ -21,11 +21,11 @@ init:
     $ claire = Character("Claire",image = "claire", color="#33ccff", what_color="#33ccff", what_font = "CARERRA-Jones.otf")
     $ bartender = Character("Bartender", color = "#dddcc5", what_color = "#dddcc5")
 
-    $ ScaleClaire = 350
-    $ ScaleFrank = 400
+    $ ScaleClaire = 400
+    $ ScaleFrank = 450
     $ ScaleCharles = 450
 
-    $ PortraitScale = 1.1
+    $ PortraitScale = 1.0
 
     $ charles = Character("Charles", image = "charles", color="#FFA500", what_color="#FFA500", what_font = "CARERRA-Jones.otf")
 
@@ -50,13 +50,16 @@ label start:
     image claire sit = im.Scale("ClaireLook1.png", ScaleClaire, ScaleClaire)
     image side claire = im.Scale("tempClairePortrait.png", ScaleClaire * PortraitScale, ScaleClaire* PortraitScale)
 
-    image ClaireAngryUp = im.Scale("ClaireAngry1.png", ScaleClaire, ScaleClaire)
-    #image ClaireAngryUp = 'ClaireAngry1.png'
+    image claire angry = im.Scale("ClaireAngry1.png", ScaleClaire, ScaleClaire)
+    image claire angry up = im.Scale("ClaireAngry2.png", ScaleClaire, ScaleClaire)
+    #image claire angry up = 'ClaireAngry1.png'
 
     image claire look left = im.Scale("ClaireLook2.png", ScaleClaire, ScaleClaire)
+    image claire sit lookLeft = im.Scale("ClaireLook2.png", ScaleClaire, ScaleClaire)
     #image claire look left = 'ClaireLook2.png'
 
     image claire look player = im.Scale("ClaireLook-Player.png", ScaleClaire, ScaleClaire)
+    image claire sit lookPlayer = im.Scale("ClaireLook-Player.png", ScaleClaire, ScaleClaire)
 
     image claire happy = im.Scale("ClaireHappy.png", ScaleClaire, ScaleClaire)
 
@@ -65,7 +68,7 @@ label start:
     #image frank sit = "TruckerSmall.png"
     image frank sit = im.Scale("RegularFrank.png", ScaleFrank, ScaleFrank)
 
-    image side frank sit = im.Scale("tempFrankPortrait.png", ScaleFrank * PortraitScale, ScaleFrank * PortraitScale)
+    image side frank sit = im.Scale("tempFrankPortrait.png", ScaleFrank * PortraitScale * 0.9, ScaleFrank * PortraitScale * 0.9)
 
     image frank sit beer lookPlayer= im.Scale("TruckerSmallDrink.png", ScaleFrank, ScaleFrank)
 
@@ -76,8 +79,8 @@ label start:
     image frank angry lookRight = im.Scale("Frank-Angry1.png", ScaleFrank, ScaleFrank)
 
     image frank smile = im.Scale("Frank-Smile1.png", ScaleFrank, ScaleFrank)
-
     image frank smile beer = im.Scale("Frank-Smile2.png", ScaleFrank, ScaleFrank)
+    #image frank smile = im.Scale("Frank-Smile1.png", ScaleFrank, ScaleFrank)
 
     image frank drunk = im.Scale("Frank-BeerDrunk1.png", ScaleFrank, ScaleFrank)
 
@@ -115,9 +118,13 @@ label start:
 
     image side braxton = im.Scale("tempBrockPortrait.png", ScaleCharles * PortraitScale * 0.8, ScaleCharles* PortraitScale * 0.8)
 
+    image elysia sit = im.Scale("tempElysia.png", ScaleCharles, ScaleCharles)
+    image side elysia = im.Scale("tempElysia.png", ScaleCharles, ScaleCharles)
+
+
     $ factorSeat = (0.1) * 0.85
     $ factorSeatOffset = 0.1
-    $ factorSeatHeightOffset = -0.03
+    $ factorSeatHeightOffset = -0.08
 
     transform Seat1:
         xcenter ((1 * factorSeat) + factorSeatOffset)
