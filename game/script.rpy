@@ -81,6 +81,9 @@ label start:
     image frank smile = im.Scale("Frank-Smile1.png", ScaleFrank, ScaleFrank)
     image frank smile beer = im.Scale("Frank-Smile2.png", ScaleFrank, ScaleFrank)
     #image frank smile = im.Scale("Frank-Smile1.png", ScaleFrank, ScaleFrank)
+    
+    image frank sad = im.Scale("Frank-Sad1.png", ScaleFrank, ScaleFrank)
+    image frank sad no hat = im.Scale("Frank-Sad2.png", ScaleFrank, ScaleFrank)
 
     image frank drunk = im.Scale("Frank-BeerDrunk1.png", ScaleFrank, ScaleFrank)
 
@@ -164,7 +167,7 @@ label start:
     scene black
     with dissolve
 
-    jump Day1Block
+    jump EndingBlock
     #scene bg room
 
     # This shows a character sprite. A placeholder is used, but you can
