@@ -1,28 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/Day5.rpy", line 358, in script
-    
-  File "game/Day5.rpy", line 358, in <module>
-    
-NameError: name 'Seat2ea' is not defined
+  File "game/Credits.rpy", line 9, in script
+    with Fade(2.0)
+TypeError: Fade() takes at least 3 arguments (3 given)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/Day5.rpy", line 358, in script
-    
-  File "D:\GameDev\Github\STL Resist Jam\renpy-6.99.12.4-sdk\renpy\ast.py", line 1075, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "D:\GameDev\Github\STL Resist Jam\renpy-6.99.12.4-sdk\renpy\ast.py", line 1036, in show_imspec
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "D:\GameDev\Github\STL Resist Jam\renpy-6.99.12.4-sdk\renpy\python.py", line 1749, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "D:\GameDev\Github\STL Resist Jam\renpy-6.99.12.4-sdk\renpy\python.py", line 1743, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/Day5.rpy", line 358, in <module>
-    
-NameError: name 'Seat2ea' is not defined
+  File "game/Credits.rpy", line 9, in script
+    with Fade(2.0)
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\ast.py", line 1275, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\exports.py", line 1381, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2096, in do_with
+    clear=clear)
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2526, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2746, in interact_core
+    new_widget=layers_root)
+  File "C:\Users\David\Documents\Ren'py\renpy-6.99.12.4-sdk\renpy\curry.py", line 38, in __call__
+    **dict(self.kwargs.items() + kwargs.items()))
+TypeError: Fade() takes at least 3 arguments (3 given)
 
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187

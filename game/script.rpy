@@ -46,6 +46,11 @@ label start:
     
     #image bgCounterTop = "bgBarTop1080.png"
     image bgCounterTop = "tempBarCounter.png"
+    
+    image bgTeamTBA = "TeamTBA-Screen.png"
+    image bgPaintedBlade = "PaintedBlade-Screen.png"
+    image bgResistJam = "ResistJamScreen.png"
+    image bgMadeInSTL = "MadeInSTL-Screen.png"
 
     #image claire sit = 'ClaireLook1.png'
     image claire sit = im.Scale("ClaireLook1.png", ScaleClaire, ScaleClaire)
@@ -189,6 +194,24 @@ label start:
     # images directory to show it.
     scene black
     with dissolve
+<<<<<<< HEAD
+=======
+    
+    stop music fadeout 1.0
+    
+    scene bgTeamTBA
+    with fade
+    pause 1.5
+    scene bgPaintedBlade
+    with fade
+    pause 1.5
+    scene bgResistJam
+    with fade
+    pause 1.5
+    scene bgMadeInSTL
+    with fade
+    pause 1.5
+>>>>>>> 86acb066cc5e75768730ecacd8a3018109f0fc5f
 
     jump Day1Block
     #scene bg room
