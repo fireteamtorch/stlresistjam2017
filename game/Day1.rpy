@@ -3,7 +3,11 @@ label Day1Block:
     scene black
     with dissolve
 
+<<<<<<< HEAD
     jump Day4Block
+=======
+    jump Day7Block
+>>>>>>> 7b180f3e0cb34caf3875140bb1a33575c634e6cd
 
     play music "tempDayTitleShortestDeNoise.mp3" noloop
 
