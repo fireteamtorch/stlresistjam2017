@@ -70,7 +70,7 @@ label start:
 
     image side frank = im.Scale("tempFrankPortrait.png", ScaleFrank * PortraitScale * 0.85, ScaleFrank * PortraitScale * 0.85)
 
-    image frank sit beer lookPlayer= im.Scale("TruckerSmallDrink.png", ScaleFrank, ScaleFrank)
+    image frank sit beer lookPlayer= im.Scale("Frank-Beer-PLayer-Look.png", ScaleFrank, ScaleFrank)
 
     image frank sit beer lookRight = im.Scale("Frank-BeerLook1.png", ScaleFrank, ScaleFrank)
     image frank sit beer lookLeft = im.Scale("Frank-BeerLook2.png", ScaleFrank, ScaleFrank)

@@ -115,7 +115,7 @@ label Day3Block:
     show elysia sit lookRight at Seat2
     with Dissolve(disFactor)
 
-    elysia "Exactly. He is SAYING he will, but he's got no real plan. Everything's about automation nowadays. You got people like Claire who can probably write some programs that can just run a factory."
+    elysia "Exactly. He is SAYING he will, but he's got no real plan. Everything's about automation nowadays. People like Claire can probably write some program that can just run a factory."
 
     show braxton sit lookLeft at Seat4
     with Dissolve(disFactor)
@@ -157,11 +157,11 @@ label Day3Block:
     show braxton sit lookRight at Seat4
     with Dissolve(disFactor)
 
-    braxton "It's not like I don't understand your point. But it just isn't fair to say it doesn't matter. Those people know..."
+    braxton "It's not like I don't understand your point. But it just isn't fair to say it doesn't matter. So those people I know..."
 
     show braxton sit lookLeft at Seat4
     with Dissolve(disFactor)
-    braxton "You can say they are getting duped, but they are not dumb and they are not impractical. All said, they are just people, and they need something to believe in."
+    braxton "You can say they are getting duped, but they are not dumb or impractical. All said, they are just people and they need something to believe in."
 
     show braxton sit lookPlayer at Seat4
     with Dissolve(disFactor)
@@ -204,7 +204,7 @@ label Day3Block:
     show braxton sit lookLeft at Seat4
     with Dissolve(disFactor)
 
-    "They catch Frank up to speed on the discussion. Frank scratches his stubbles while thinking."
+    "They catch Frank up to speed on the discussion. Frank scratches his stubble while thinking."
 
     show frank sit beer lookRight at Seat1
     with Dissolve(disFactor)
@@ -235,12 +235,12 @@ label Day3Block:
     show claire sit lookLeft at Seat5
     with Dissolve(disFactor)
 
-    frank "Think about it this way. Imagine it's impossible for you to find a new job in your field. Now, your boss walks in, and tell you all that the company is going under in six months"
+    frank "Think about it this way. Imagine it's impossible for you to find a new job in your field. Now, your boss walks in, and tells you all that the company is going under in six months"
 
     show frank sit lookPlayer at Seat1
     with Dissolve(disFactor)
 
-    frank "Say you gotta vote for your Union Rep. First one says there ain't nothing to be done about it, but the second says he or she's got a plan to somehow let you keep your job after six months."
+    frank "Say you gotta vote for your Union Rep. First one says there ain't nothing to be done about it, but the second says they got a plan to somehow let you keep your job after six months."
 
     show frank sit lookRight at Seat1
     with Dissolve(disFactor)

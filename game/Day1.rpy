@@ -67,13 +67,13 @@ label Day1Block:
     show frank sit beer lookLeft at Seat1
     with Dissolve(disFactor)
 
-    "A middle aged man walks in, and looks at his watch. He shakes the minor look of confusing off of his face, then rubs his belly before walking over."
+    "A middle aged man walks in, and looks at his watch. He shakes the minor look of confusion off of his face, then rubs his belly before walking over."
 
     show frank sit beer lookRight at Seat2
     with Dissolve(disFactor)
     frank "*Slurp*"
 
-    bartender "Hey there. What can I get ya."
+    bartender "Hey there. What can I get ya?"
 
     show frank sit beer lookPlayer at Seat2
     with Dissolve(disFactor)
