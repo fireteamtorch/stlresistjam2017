@@ -3,7 +3,7 @@ label Day4Block:
     scene black
     with dissolve
 
-    play music "tempDayTitleShortestDeNoise.mp3" noloop
+    play music "jingle_dayTitleDenoise.wav" noloop
 
     show text "Week 4" at Transform(xalign = 0.5, yalign = 0.47) as text1
     #show top_text at truecenter
@@ -22,7 +22,7 @@ label Day4Block:
     with dissolve
 
     #play music "noir_v002_lpf_LOOPedit.wav"
-    play music "lux_v001_lpf_LOOPedit.wav" 
+    play music "lux_v001_lpf_LOOPedit.wav" fadein 1.0
 
 
     "You expect a quiet day after what happened last week. Maybe they won't show up..."
@@ -254,7 +254,6 @@ label Day4Block:
 
     "During quiet moments, you can hear faint sounds of Frank complaining through the bathroom door. Charles takes the chance to share more of his story ideas."
 
-    stop music fadeout 1.0
     play music "noir_v002_lpf_LOOPedit.wav" fadein 1.0
 
     "The duo returns after a few minutes."
@@ -448,7 +447,7 @@ label Day4Block:
     pause 1
     show text "End of Day" at truecenter as text3
     with dissolve
-    play music "tempEndofDay.mp3" noloop
+    play music "jingle_endOfDayDenoise.wav" noloop
     pause 2
     hide text3
     with dissolve

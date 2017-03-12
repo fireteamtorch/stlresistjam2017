@@ -5,7 +5,7 @@ label Day1Block:
 
     #jump Day4Block
 
-    play music "tempDayTitleShortestDeNoise.mp3" noloop
+    play music "jingle_dayTitleDenoise.wav" noloop
 
     #image top_text = ParameterizedText(text = "Week 1\n\nNew Faces", xalign=0.5, yalign=0.0, text_size = 80)
 
@@ -32,7 +32,7 @@ label Day1Block:
 
     #play music "noir_test_v001_lowpassEQ.mp3"
     #play music "noir_v002_lpf_LOOPedit.wav"
-    play music "lux_v001_lpf_LOOPedit.wav"
+    play music "lux_v001_lpf_LOOPedit.wav" fadein 1.0
 
     "Well, Jens did it again..."
     "Went off somewhere fun and made you be the responsible one."
@@ -62,7 +62,7 @@ label Day1Block:
     show bgCounterTop
     with dissolve
 
-    play music "noir_v002_lpf_LOOPedit.wav"
+    play music "noir_v002_lpf_LOOPedit.wav" fadein 1.0
 
     #show charles sit at Center(xcenter = Seat2.xcenter,ycenter = (Seat2.ycenter))
     #show charles sit at Seat2
@@ -257,7 +257,7 @@ label Day1Block:
     pause 1
     show text "End of Day" at truecenter as text3
     with dissolve
-    play music "tempEndofDay.mp3" noloop
+    play music "jingle_endOfDayDenoise.wav" noloop
     pause 2
     hide text3
     with dissolve
