@@ -196,10 +196,6 @@ label start:
     # images directory to show it.
     scene black
     with dissolve
-
-<<<<<<< HEAD
-    jump Day1Block
-=======
     
     stop music fadeout 1.0
     
@@ -216,14 +212,8 @@ label start:
     with fade
     pause 1.5
 
-
-<<<<<<< HEAD
     jump Day1Block
-=======
-    jump Day3Block
->>>>>>> fb34cf55cfe2804078914143448f71fa9bb3889a
->>>>>>> 07c966480d37571de5de83e00c365952a496b8ab
-    #scene bg room
+
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
