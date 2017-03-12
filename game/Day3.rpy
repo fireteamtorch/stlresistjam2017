@@ -3,12 +3,12 @@ label Day3Block:
     scene black
     with dissolve
 
-    play music "tempDayTitleShortestDeNoise.mp3" noloop
+    play music "jingle_dayTitleDenoise.wav" noloop
 
     show text "Week 3" at Transform(xalign = 0.5, yalign = 0.47) as text1
     #show top_text at truecenter
     with Dissolve(2.0)
-    show text "Tension rises" at Transform(xalign = 0.5, yalign = 0.53) as text2
+    show text "Tensions rise" at Transform(xalign = 0.5, yalign = 0.53) as text2
     with Dissolve(2.0)
     
     pause 1
@@ -22,14 +22,14 @@ label Day3Block:
     with dissolve
 
     #play music "noir_v002_lpf_LOOPedit.wav"
-    play music "lux_v001_lpf_LOOPedit.wav"
+    play music "lux_v001_lpf_LOOPedit.wav" fadein 1.0
     
 
     show charles sit at Seat3
     show braxton sit lookLeft at Seat4
     with Dissolve(disFactor)
 
-    "Charles was here early, as usual. Braxton arrived shortly after, and settled down with a burger and some beer."
+    "Charles is here early, as usual. Braxton arrives shortly after, and settles down with a burger and some beer."
 
     show braxton sit lookPlayer at Seat4
     with Dissolve(disFactor)
@@ -42,24 +42,24 @@ label Day3Block:
 
     bartender "Got new book ideas?"
 
-    charles "Oh I got a good one."
+    charles "Oh, I got a good one!"
 
     show braxton angry at Seat4
     with Dissolve(disFactor)
 
-    braxton "Oh don't encourage him."
+    braxton "Please don't encourage him."
 
     show braxton sit lookLeft at Seat4
     with Dissolve(disFactor)
 
     charles "Wow..."
 
-    "Braxton takes a long deliberate sip of his beer, then waits a few moments."
+    "Braxton takes a long, deliberate sip of his beer, then waits a few moments."
 
     show braxton smile at Seat4
     with Dissolve(disFactor)
 
-    braxton "I was kidding, you know I'd buy your book Charles."
+    braxton "I was kidding. You know I'd buy your book, Charles."
 
     show braxton sit lookLeft at Seat4
     with Dissolve(disFactor)
@@ -74,7 +74,7 @@ label Day3Block:
     show braxton sit lookLeft at Seat4
     with Dissolve(disFactor)
 
-    braxton "What? Charles... how can you say that."
+    braxton "What? Charles... how can you say that?"
 
     show claire sit at Seat5
     with Dissolve(disFactor)
@@ -84,12 +84,12 @@ label Day3Block:
     show braxton sit lookRight at Seat4
     with Dissolve(disFactor)
 
-    braxton "Hey Claire."
+    braxton "Hey, Claire."
 
     show claire happy player at Seat5
     with Dissolve(disFactor)
 
-    claire "Oh hi."
+    claire "Oh, hi."
 
     show  claire happy at Seat5
     with Dissolve(disFactor)
@@ -117,12 +117,14 @@ label Day3Block:
     show elysia sit lookRight at Seat2
     with Dissolve(disFactor)
 
-    elysia "Exactly. He is SAYING he will, but he's got no real plan. Everything's about automation nowadays. People like Claire can probably write some program that can just run a factory."
+    elysia "Exactly. He is SAYING he will, but he's got no real plan. Everything's about automation nowadays."
+    
+    elysia "People like Claire can probably write some program that can just run a factory."
 
     show braxton sit lookLeft at Seat4
     with Dissolve(disFactor)
 
-    braxton "Some people still need to hear it though."
+    braxton "Some people still need to hear it, though."
 
     "Elysia turns to Braxton, surprised."
 
@@ -131,7 +133,8 @@ label Day3Block:
     show braxton sit lookLeft at Seat4
     with Dissolve(disFactor)
 
-    braxton "You're talking about people's livelihood. And yes, when something means that much to them, hearing it matters. It might not apply to my profession, but I have plenty of friends who depend on those jobs."
+    braxton "You're talking about people's livelihoods. And yes, when something means that much to them, hearing it matters."
+    braxton "It might not apply to my profession, but I have plenty of friends who depend on those jobs."
 
     show braxton sit lookRight at Seat4
     show claire sit lookLeft at Seat5
@@ -163,7 +166,7 @@ label Day3Block:
 
     show braxton sit lookLeft at Seat4
     with Dissolve(disFactor)
-    braxton "You can say they are getting duped, but they are not dumb or impractical. All said, they are just people and they need something to believe in."
+    braxton "You can say they are getting duped, but they're not dumb or impractical. All said, they are just people and they need something to believe in."
 
     show braxton sit lookPlayer at Seat4
     with Dissolve(disFactor)
@@ -200,7 +203,7 @@ label Day3Block:
     show braxton angry at Seat4
     with Dissolve(disFactor)
 
-    braxton "*sigh* But its actually like this..."
+    braxton "*sigh* But it's actually like this..."
 
     show frank sit beer lookLeft at Seat1
     show braxton sit lookLeft at Seat4
@@ -230,19 +233,22 @@ label Day3Block:
     show claire angry up at Seat5
     with Dissolve(disFactor)
 
-    claire "So you would vote for a liar over a relatively more honest person."
+    claire "So you would vote for a liar over a relatively more honest person?"
 
     show frank sit beer lookRight at Seat1
     show braxton sit lookLeft at Seat4
     show claire sit lookLeft at Seat5
     with Dissolve(disFactor)
 
-    frank "Think about it this way. Imagine it's impossible for you to find a new job in your field. Now, your boss walks in, and tells you all that the company is going under in six months"
+    frank "Think about it this way. Imagine it's impossible for you to find a new job in your field."
+    
+    frank "Now, your boss walks in, and tells you all that the company is going under in six months."
 
     show frank sit lookPlayer at Seat1
     with Dissolve(disFactor)
 
-    frank "Say you gotta vote for your Union Rep. First one says there ain't nothing to be done about it, but the second says they got a plan to somehow let you keep your job after six months."
+    frank "Say you gotta vote for your Union Rep."
+    frank "First one says there ain't nothing to be done about it, but the second says they got a plan to somehow let you keep your job after six months."
 
     show frank sit lookRight at Seat1
     with Dissolve(disFactor)
@@ -254,7 +260,7 @@ label Day3Block:
     show claire angry at Seat5
     with Dissolve(disFactor)
 
-    "The bar fell silent for a few minutes after his comments, until Elysia let out a long sigh."
+    "The bar falls silent for a few minutes after his comments, until Elysia lets out a long sigh."
 
     show frank drunk at Seat1
     show braxton sit lookLeft at Seat4
@@ -263,24 +269,26 @@ label Day3Block:
 
     elysia "Part of me really wants the whole thing to be over."
 
-    "'Amen.' replied most of them."
+    "'Amen,' replied most of them."
 
     scene black
     with dissolve
 
-    "After that, the conversations seemed to die out, not even Charles' usual antics could liven the mood."
+    "After that, the conversations seem to die out. Not even Charles's usual antics could liven the mood."
 
-    "One by one, the patrons headed home, and much earlier than usual."
+    "One by one, the patrons head home, and much earlier than usual."
 
     stop music fadeout 1.0
     pause 1
     show text "End of Day" at truecenter as text3
     with dissolve
-    play music "tempEndofDay.mp3" noloop
+    play music "jingle_endOfDayDenoise.wav" noloop
     pause 2
     hide text3
     with dissolve
     pause 3
+    
+    jump Day4Block
 
 
 return

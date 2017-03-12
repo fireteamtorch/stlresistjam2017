@@ -80,6 +80,8 @@ label start:
 
     image frank smile = im.Scale("Frank-Smile1.png", ScaleFrank, ScaleFrank)
     image frank smile beer = im.Scale("Frank-Smile2.png", ScaleFrank, ScaleFrank)
+
+    image frank sad = im.Scale("Frank-Sad1.png", ScaleFrank, ScaleFrank)
     #image frank smile = im.Scale("Frank-Smile1.png", ScaleFrank, ScaleFrank)
     
     image frank sad = im.Scale("Frank-Sad1.png", ScaleFrank, ScaleFrank)
@@ -160,6 +162,19 @@ label start:
     transform Seat5:
         xcenter ((9 *factorSeat) + factorSeatOffset)
         yalign 0.25 + factorSeatHeightOffset
+
+
+
+    transform Seat3half:
+        xcenter ((6 *factorSeat) + factorSeatOffset)
+        yalign 0.25 + factorSeatHeightOffset
+
+    transform Seat4half:
+        xcenter ((8 *factorSeat) + factorSeatOffset)
+        yalign 0.25 + factorSeatHeightOffset
+
+
+
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
