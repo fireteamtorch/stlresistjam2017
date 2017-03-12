@@ -37,7 +37,8 @@ init:
 # The game starts here.
 
 label start:
-
+    image choicepic = im.Scale("Frankchoice.png", 768, 432)
+    image grouppic = im.Scale("Grouppic.png", 768, 432)
     image bgBar = "bgSectionsEdit1080.png"
     image bgBarDay = "Bar-BG-Daytime.png"
     #image bgBarDay = im.Scale("Bar-BG-Daytime.png", 1280 , 720)
@@ -114,6 +115,13 @@ label start:
         repeat
 
     image charles sit = im.Scale("Charles-Player-LookEdit.png", ScaleCharles, ScaleCharles)
+    image charles sit lookLeft = im.Scale("Charles-Player-Look-Left.png", ScaleCharles, ScaleCharles)
+    image charles sit lookRight = im.Scale("Charles-Player-LookEdit.png", ScaleCharles, ScaleCharles)
+    image charles smile = im.Scale("Charles-Player-Look-Smile.png", ScaleCharles, ScaleCharles)
+
+    image charles teased = im.Scale("Charles-Look-Teased.png", ScaleCharles, ScaleCharles)
+
+    image charles explain = im.Scale("Charles-Explain.png", ScaleCharles, ScaleCharles)
 
     image side charles = im.Scale("tempCharlesPortrait.png", ScaleCharles * PortraitScale * 0.8, ScaleCharles* PortraitScale * 0.8)
 
