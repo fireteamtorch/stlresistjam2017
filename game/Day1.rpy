@@ -3,8 +3,6 @@ label Day1Block:
     scene black
     with dissolve
 
-    jump Day2Block
-
     play music "jingle_dayTitleDenoise.wav" noloop
 
     #image top_text = ParameterizedText(text = "Week 1\n\nNew Faces", xalign=0.5, yalign=0.0, text_size = 80)

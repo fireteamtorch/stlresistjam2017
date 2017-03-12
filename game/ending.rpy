@@ -1,6 +1,10 @@
 label EndingBlock:
+    
     scene black
     with dissolve
+
+    # play music "noir_v002_lpf_LOOPedit.wav" fadein 1.0 fadeout 1.0
+    
     transform epos1:
         xcenter 0.2
         ycenter 0.25
@@ -90,20 +94,20 @@ label EndingBlock:
     with dissolve
     pause 0.5 
     
-    show text "Rude...It mattered to me" at epos3b as endingtext4
+    show text "       Rude...It mattered to me!" at epos3b as endingtext4
     with dissolve
     pause 3
     hide endingtext4
     hide frank drunk
     hide sweetchoices
     
-    show text "My bad Frank... trying to be all deep and philosophical here." at epos3b as sorryfrank1
+    show text "My bad, Frank... trying to be all deep and philosophical here." at epos3b as sorryfrank1
     with dissolve
     pause 5
     hide sorryfrank1
     pause 0.5
                
-    show text "How much must you learn about someone, before you have them..." at etext2 as deeptext1
+    show text "How much must you learn about someone before you have them..." at etext2 as deeptext1
     with dissolve
     pause 3
     show text "{size=+10}Figured out?{/size}" at epos2 as deeptext2
@@ -115,28 +119,29 @@ label EndingBlock:
         
     show grouppic at piccoord2
     with dissolve
-    show text "Claire" at quotespot1 as clairequote
+    show text "    Claire" at quotespot1 as clairequote
     with dissolve
-    show text "stayed home, instead of marching against dangerous deregulations." at quotespot2 as quotebasic
+    show text "stayed home instead of marching against dangerous deregulations." at quotespot2 as quotebasic
     with dissolve
     pause 2
     hide clairequote
-    show text "Charles" at quotespot1 as charlesquote
+    show text "  Charles" at quotespot1 as charlesquote
     with dissolve
     pause 4
     hide charlesquote
+    pause 2
     
     show text "What if:" at quotespot3 as quoteadv
     with dissolve
-    show text "Frank" at quotespot1 as franksquote
+    show text "   Frank" at quotespot1 as franksquote
     with dissolve
     pause 2
     hide franksquote
-    show text "Elysia" at quotespot1 as elysiasquote
+    show text "   Elysia" at quotespot1 as elysiasquote
     with dissolve
     pause 2
     hide elysiasquote
-    show text "Braxton" at quotespot1 as braxtonsquote
+    show text " Braxton" at quotespot1 as braxtonsquote
     with dissolve
     pause 2
     hide braxtonsquote
@@ -155,10 +160,11 @@ label EndingBlock:
     pause 4
     hide finalthanks
     
-    show text "BTW: I know the earlier line about changing the \ncode STRONGLY hints at the fact that we might\nhave hidden secret content behind a few code\nchanges we acknowledge it would be super \nclever but we didn't have time to get fancy with it\n so...it's just a metaphor :P" at epos3 as luls 
+    show text "{size=-10}BTW: We know the earlier line about changing the \ncode STRONGLY hints at the fact that we might\nhave hidden secret content behind a few code\nchanges. We acknowledge it would be super \nclever but we didn't have time to get fancy with it\n so...it's just a metaphor :P{/size}" at epos3 as luls 
+    with dissolve
     pause 10
     
-    
+    jump CreditsBlock
     
 
 return

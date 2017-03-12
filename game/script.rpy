@@ -196,12 +196,9 @@ label start:
     # images directory to show it.
     scene black
     with dissolve
-
-<<<<<<< HEAD
-    jump Day1Block
-=======
     
     stop music fadeout 1.0
+    jump Day7Block
     
     scene bgTeamTBA
     with fade
@@ -217,8 +214,7 @@ label start:
     pause 1.5
 
 
-    jump Day3Block
->>>>>>> fb34cf55cfe2804078914143448f71fa9bb3889a
+    jump Day1Block
     #scene bg room
 
     # This shows a character sprite. A placeholder is used, but you can

@@ -242,6 +242,6 @@ label Day7Block:
     # with dissolve
     # pause 3
     
-    jump CreditsBlock
+    jump EndingBlock
 
 return
