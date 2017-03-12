@@ -273,7 +273,7 @@ label Day1Block:
 
     scene black
     with dissolve
-    "The rest of the night proved uneventful. After the patrons leave, you close up shop."
+    "The rest of the night proves uneventful. After the patrons leave, you close up shop."
     
     bartender "All in all, not bad for the first day."
 
@@ -287,7 +287,7 @@ label Day1Block:
     pause 2
     hide text3
     with dissolve
-    pause 3
+    pause 1
 
 
 

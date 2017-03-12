@@ -212,7 +212,7 @@ label start:
     with fade
     pause 1.5
 
-    jump EndingBlock
+    jump Day1Block
     #scene bg room
 
     # This shows a character sprite. A placeholder is used, but you can

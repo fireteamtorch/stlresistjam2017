@@ -307,7 +307,7 @@ label Day3Block:
     pause 2
     hide text3
     with dissolve
-    pause 3
+    pause 1
     
     jump Day4Block
 
