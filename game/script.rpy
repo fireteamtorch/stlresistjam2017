@@ -68,7 +68,7 @@ label start:
     #image frank sit = "TruckerSmall.png"
     image frank sit = im.Scale("RegularFrank.png", ScaleFrank, ScaleFrank)
 
-    image side frank sit = im.Scale("tempFrankPortrait.png", ScaleFrank * PortraitScale * 0.9, ScaleFrank * PortraitScale * 0.9)
+    image side frank = im.Scale("tempFrankPortrait.png", ScaleFrank * PortraitScale * 0.85, ScaleFrank * PortraitScale * 0.85)
 
     image frank sit beer lookPlayer= im.Scale("TruckerSmallDrink.png", ScaleFrank, ScaleFrank)
 
@@ -118,8 +118,16 @@ label start:
 
     image side braxton = im.Scale("tempBrockPortrait.png", ScaleCharles * PortraitScale * 0.8, ScaleCharles* PortraitScale * 0.8)
 
-    image elysia sit = im.Scale("tempElysia.png", ScaleCharles, ScaleCharles)
-    image side elysia = im.Scale("tempElysia.png", ScaleCharles, ScaleCharles)
+    image elysia sit lookLeft = im.Scale("Elysia-Look-Left.png", ScaleCharles, ScaleCharles)
+    image elysia sit lookRight = im.Scale("Elysia-Look-Right.png", ScaleCharles, ScaleCharles)
+
+    image elysia smile lookLeft = im.Scale("Elysia-Smile-Left.png", ScaleCharles, ScaleCharles)
+    image elysia smile lookRight = im.Scale("Elysia-Smile-Right.png", ScaleCharles, ScaleCharles)
+    image elysia smile lookPlayer = im.Scale("Elysia-Smile-Player.png", ScaleCharles, ScaleCharles)
+
+    image elysia closed = im.Scale("Elysia-Eyes-Closed.png", ScaleCharles, ScaleCharles)
+
+    image side elysia = im.Scale("tempElysiaPortrait.png", ScaleCharles * 0.8, ScaleCharles * 0.8)
 
 
     $ factorSeat = (0.1) * 0.85

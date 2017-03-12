@@ -3,7 +3,7 @@ label Day1Block:
     scene black
     with dissolve
 
-    jump Day3Block
+    #jump Day3Block
 
     play music "tempDayTitleShortestDeNoise.mp3" noloop
 
@@ -25,7 +25,7 @@ label Day1Block:
     #show charles sit at Seat1
     #show claire sit at Seat4
     #show frank sit at Seat2
-    scene bgBarNight
+    scene bgBarDay
 
     show bgCounterTop
     with dissolve
@@ -33,6 +33,33 @@ label Day1Block:
     #play music "noir_test_v001_lowpassEQ.mp3"
     play music "noir_v002_lpf_LOOPedit.wav"
 
+    "Well, Jens did it again..."
+    "Went off somewhere fun and made you be the responsible one."
+    bartender "Oh well, might as well put my skills to use."
+    "..."   
+    "......"
+    "Hmmm... maybe you should've told someone the diner's now open Friday nights too..."
+    bartender "I guess I'll leave the lights on, see if anyone comes by..."
+    "..."
+    "A few hours passed..."
+
+    scene black
+    with dissolve
+
+    show text "Late night..." at Transform(xalign = 0.5, yalign = 0.47) as text1
+    #show top_te
+    with Dissolve(2.0)
+    
+    pause 1
+
+    hide text1
+    hide text2
+    with Dissolve(2.0)
+
+    scene bgBarNight
+
+    show bgCounterTop
+    with dissolve
 
     #show charles sit at Center(xcenter = Seat2.xcenter,ycenter = (Seat2.ycenter))
     #show charles sit at Seat2
@@ -215,9 +242,23 @@ label Day1Block:
 
     scene black
     with dissolve
-    "The rest of the night proved uneventful. After the patrons left, you close up shop."
+    "The rest of the night proved uneventful. After the patrons left, you closed up shop."
     
     bartender "All in all, not bad for the first day."
+
+
+
+    stop music fadeout 1.0
+    pause 1
+    show text "End of Day" at truecenter as text3
+    with dissolve
+    play music "tempEndofDay.mp3" noloop
+    pause 2
+    hide text3
+    with dissolve
+    pause 3
+
+
 
     jump Day2Block
 

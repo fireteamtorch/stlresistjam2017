@@ -1,5 +1,10 @@
 label Day3Block:
 
+    scene black
+    with dissolve
+
+    play music "tempDayTitleShortestDeNoise.mp3" noloop
+
     show text "Week 3" at Transform(xalign = 0.5, yalign = 0.47) as text1
     #show top_text at truecenter
     with Dissolve(2.0)
@@ -89,18 +94,25 @@ label Day3Block:
 
     "Claire orders a rum and coke, then resumes her work."
 
-    show elysia sit at Seat2
+    show elysia sit lookLeft at Seat2
     show braxton sit lookLeft at Seat4
     show claire sit at Seat5
     with Dissolve(disFactor)
 
     "Elysia enters the bar, and heads straight for the seat next to Charles."
 
+    show elysia sit lookRight at Seat2
+    with Dissolve(disFactor)
+
     elysia "What is up with your article? The guy had one moderately coherent speech, and all I hear day in and day out is how amazing he's gonna be."
+
+    show elysia closed at Seat2
+    with Dissolve(disFactor)
 
     charles "It's not about that, it's about what he said. He's saying he will bring back manufacturing jobs."
 
     show braxton sit lookPlayer at Seat4
+    show elysia sit lookRight at Seat2
     with Dissolve(disFactor)
 
     elysia "Exactly. He is SAYING he will, but he's got no real plan. Everything's about automation nowadays. You got people like Claire who can probably write some programs that can just run a factory."
@@ -145,8 +157,14 @@ label Day3Block:
     show braxton sit lookRight at Seat4
     with Dissolve(disFactor)
 
-    braxton "It's not like I don't understand your point. But it just isn't fair to say it doesn't matter. Those people I know... You can say they are getting duped, but they are not dumb and they are not impractical. All said, they are just people, and they need something to believe in."
+    braxton "It's not like I don't understand your point. But it just isn't fair to say it doesn't matter. Those people know..."
 
+    show braxton sit lookLeft at Seat4
+    with Dissolve(disFactor)
+    braxton "You can say they are getting duped, but they are not dumb and they are not impractical. All said, they are just people, and they need something to believe in."
+
+    show braxton sit lookPlayer at Seat4
+    with Dissolve(disFactor)
     "Braxton takes a few more sips of beer."
 
     show braxton sit lookLeft at Seat4
@@ -251,6 +269,16 @@ label Day3Block:
     "After that, the conversations seemed to die out, not even Charles' usual antics could liven the mood."
 
     "One by one, the patrons headed home, and much earlier than usual."
+
+    stop music fadeout 1.0
+    pause 1
+    show text "End of Day" at truecenter as text3
+    with dissolve
+    play music "tempEndofDay.mp3" noloop
+    pause 2
+    hide text3
+    with dissolve
+    pause 3
 
 
 return
