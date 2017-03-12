@@ -3,7 +3,6 @@ label Day1Block:
     scene black
     with dissolve
 
-    jump Day6Block
 
     play music "jingle_dayTitleDenoise.wav" noloop
 
@@ -139,21 +138,29 @@ label Day1Block:
     "The door opens, and a young man in his late twenties enters the bar."
 
     show frank sit beer lookRight at Seat2
-    show charles sit at Seat1
+    show charles smile at Seat1
     with Dissolve(disFactor)
+
     charles "You open?"
 
     bartender "Come on in, the grill's still running."
 
+    show charles sit at Seat1
+    with Dissolve(disFactor)
+
     charles "Oh, cool."
 
-    show charles sit at Seat4
+    show charles sit lookLeft at Seat4
     with Dissolve(disFactor)
     "Charles ponders his surroundings, and chooses to sit down on the empty side of the bar."
+
+    show charles sit lookRight at Seat4
 
     charles "Open late, huh?"
 
     "Charles studies the wall intensely."
+
+    show charles sit lookRight at Seat4
 
     charles "Oh... do you have steak?"
 
@@ -162,6 +169,7 @@ label Day1Block:
     bartender "How'd you like it done?"
 
     show frank angry lookRight at Seat2
+    show charles smile at Seat4
     with Dissolve(disFactor)
     charles "Well done, with some a side of... do you have kale?"
 
@@ -174,6 +182,7 @@ label Day1Block:
     bartender "Sorry, broccoli's closest we got."
 
     show frank sit beer lookRight at Seat2
+    show charles sit lookLeft at Seat4
     with Dissolve(disFactor)
     charles "That'd work."
 
@@ -197,11 +206,16 @@ label Day1Block:
     with Dissolve(disFactor)
     frank "Yeah... I do see the resemblance. Well, good for Jens."
 
+    show charles smile at Seat4
+
     "Charles perks up at the sound of conversation."
+
+    show charles sit lookLeft at Seat4
 
     charles "No wonder, I was on my way home after meeting a super important deadline, and saw this place open. I thought I got lost or something."
 
     show frank drunk angry lookRight at Seat2
+    show charles smile at Seat4
     with Dissolve(disFactor)
     "Charles looks at you with an excited smile that screams 'Please ask what I do for a living.'"
 
@@ -214,34 +228,47 @@ label Day1Block:
     "Somehow, his eyes light up even more."
 
     show frank drunk at Seat2
+    show charles explain at Seat4
     with Dissolve(disFactor)
     charles "I'm a reporter for the local paper."
 
     bartender "Journalist, huh?"
 
+    show charles sit lookRight at Seat4
     charles "Yeah, normally, the workload isn't all that bad. But you know... elections coming up."
 
     show frank drunk angry lookRight at Seat2
+    show charles sit lookLeft at Seat4
     with Dissolve(disFactor)
     "Charles look around to gauge people's reactions before continuing. Frank is too drunk to care."
 
     show frank drunk at Seat2
+    show charles sit lookRight at Seat4
     with Dissolve(disFactor)
     charles "I'll bring an extra copy of the paper with me next time."
 
     bartender "You don't have to."
 
+    show charles explain at Seat4
+
     charles "Oh, you should consider running an ad in the papers, it's pretty cheap and I can get you a deal."
 
+    show charles sit lookLeft at Seat4
     bartender "I'm just trying this out for now."
 
     charles "No worries, it'll cost you almost nothing, and you only need to run it for a day or two. The town's small, so everyone reads the paper here."
+    
+    show charles explain at Seat4
 
     "Charles hands you a business card."
+
+    show charles smile at Seat4
 
     charles "Call me after Tuesday and I'll give you a quote."
 
     bartender "Thanks."
+
+    show charles sit lookRight at Seat4
 
     "After that brief exchange, Charles seems to get lost in thought, while Frank continues to nurse the beer in his hand."
 

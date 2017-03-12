@@ -46,6 +46,11 @@ label start:
     
     #image bgCounterTop = "bgBarTop1080.png"
     image bgCounterTop = "tempBarCounter.png"
+    
+    image bgTeamTBA = "TeamTBA-Screen.png"
+    image bgPaintedBlade = "PaintedBlade-Screen.png"
+    image bgResistJam = "ResistJamScreen.png"
+    image bgMadeInSTL = "MadeInSTL-Screen.png"
 
     #image claire sit = 'ClaireLook1.png'
     image claire sit = im.Scale("ClaireLook1.png", ScaleClaire, ScaleClaire)
@@ -110,6 +115,15 @@ label start:
         repeat
 
     image charles sit = im.Scale("Charles-Player-LookEdit.png", ScaleCharles, ScaleCharles)
+    image charles sit lookLeft = im.Scale("Charles-Look-Left.png", ScaleCharles, ScaleCharles)
+    image charles sit lookRight = im.Scale("Charles-Player-Look.png", ScaleCharles, ScaleCharles)
+    image charles smile = im.Scale("Charles-Player-Look-Smile.png", ScaleCharles, ScaleCharles)
+
+    image charles teased = im.Scale("Charles-Look-Teased.png", ScaleCharles, ScaleCharles)
+
+    image charles explain = im.Scale("Charles-Explain.png", ScaleCharles, ScaleCharles)
+
+    image charles sad = im.Scale("Charles-Sad.png", ScaleCharles, ScaleCharles)
 
     image side charles = im.Scale("tempCharlesPortrait.png", ScaleCharles * PortraitScale * 0.8, ScaleCharles* PortraitScale * 0.8)
 
@@ -183,7 +197,28 @@ label start:
     scene black
     with dissolve
 
+<<<<<<< HEAD
     jump Day1Block
+=======
+    
+    stop music fadeout 1.0
+    
+    scene bgTeamTBA
+    with fade
+    pause 1.5
+    scene bgPaintedBlade
+    with fade
+    pause 1.5
+    scene bgResistJam
+    with fade
+    pause 1.5
+    scene bgMadeInSTL
+    with fade
+    pause 1.5
+
+
+    jump Day3Block
+>>>>>>> fb34cf55cfe2804078914143448f71fa9bb3889a
     #scene bg room
 
     # This shows a character sprite. A placeholder is used, but you can

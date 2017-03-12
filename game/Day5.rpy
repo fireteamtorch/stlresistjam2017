@@ -21,8 +21,8 @@ label Day5Block:
     show bgCounterTop
     with dissolve
 
-    play music "noir_v002_lpf_LOOPedit.wav"
-    #play music "lux_v001_lpf_LOOPedit.wav" fadein 1.0
+    # play music "noir_v002_lpf_LOOPedit.wav" fadein 1.0
+    play music "lux_v001_lpf_LOOPedit.wav" fadein 1.0
 
     "Frank walks in, looking disheveled."
 
