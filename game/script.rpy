@@ -37,7 +37,8 @@ init:
 # The game starts here.
 
 label start:
-
+    image choicepic = im.Scale("Frankchoice.png", 768, 432)
+    image grouppic = im.Scale("Grouppic.png", 768, 432)
     image bgBar = "bgSectionsEdit1080.png"
     image bgBarDay = "Bar-BG-Daytime.png"
     #image bgBarDay = im.Scale("Bar-BG-Daytime.png", 1280 , 720)
