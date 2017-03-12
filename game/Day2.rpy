@@ -51,7 +51,7 @@ label Day2Block:
 
     "Charles pulls out a large notebook, and begins intermittently jotting things down."
 
-    "The door opens, and a young woman in her early twenties enters the bar, a large backpack on her back."
+    "The door opens, and a young woman in her early twenties enters the bar, wearing a large backpack."
 
     show claire sit at Seat2
     with Dissolve(disFactor)
@@ -129,7 +129,7 @@ label Day2Block:
 
     #"The rest of the evening was pretty empty."
 
-    "After a while, a police officer in her early 30s enters, and upon seeing Charles, sits down next to him."
+    "After a while, a police officer in her early thirties enters, and upon seeing Charles, sits down next to him."
 
     show elysia sit lookLeft at Seat4
     show charles sit lookLeft at Seat5
@@ -157,7 +157,7 @@ label Day2Block:
     show  elysia sit lookRight at Seat4
     with Dissolve(disFactor)
 
-    charles "Eloped with his fiancée, probably to some tropical paradise."
+    charles "Eloped with his fiancé, probably to some tropical paradise."
 
     show elysia smile lookRight at Seat4
     with Dissolve(disFactor)
@@ -195,7 +195,7 @@ label Day2Block:
     scene black
     with dissolve
 
-    show text "Outside the bar, daylight fades away completely as evening turns to night." at Transform(xalign = 0.5, yalign = 0.47) as text1
+    show text "Outside the bar, daylight fades away completely as evening turns to late night." at Transform(xalign = 0.5, yalign = 0.47) as text1
     #show top_te
     with Dissolve(2.0)
     
@@ -225,13 +225,13 @@ label Day2Block:
     with Dissolve(disFactor)
 
 
-    "One of the patrons who frequents the diner during the day, Braxton, sits down at the bar, while Elysia and Charles are engaged in a political debate."
+    "One of the patrons who frequents the diner during the day, Braxton, sits down at the bar. Elysia and Charles are engaged in a political debate."
 
     show braxton sit lookRight at Seat1
     show elysia sit lookRight at Seat4
     with Dissolve(disFactor)
 
-    elysia "Charles, you realize every single person who runs for office promises to 'cut taxes' right? It's all bullshit."
+    elysia "Charles, you realize every single person who runs for office promises to 'cut taxes,' right? It's all bullshit."
 
     charles "All I'm saying is that we should keep an open mind."
 
@@ -375,7 +375,7 @@ label Day2Block:
     with Dissolve(disFactor)
     "All of the patrons turn to look at Charles."
 
-    braxton "That's pretty much Twilight... and literally the wors-"
+    braxton "That's pretty much {i}Twilight{/i}... and literally the wors-"
 
     show frank smile beer at Seat1
     with Dissolve(disFactor)
