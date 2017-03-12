@@ -2,8 +2,28 @@
 errors listed below, and try again.
 
 
-File "game/Day7.rpy", line 88: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a ' at the end of the first line.)
-        It's going to be a long drive home...
+File "game/Day1.rpy", line 6: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/Day1.rpy", line 8: expected statement.
+    =======
+          ^
+
+File "game/Day1.rpy", line 9: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/Day1.rpy", line 11: expected statement.
+    =======
+          ^
+
+File "game/Day1.rpy", line 13: expected statement.
+    >>>>>>> 7b180f3e0cb34caf3875140bb1a33575c634e6cd
+                                                    ^
+
+File "game/Day1.rpy", line 14: expected statement.
+    >>>>>>> 5409fd283f8c71ffbc8059f43fd4a003ac9c03d1
+                                                    ^
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187
