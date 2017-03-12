@@ -39,6 +39,8 @@ label Day4Block:
 
     elysia "With robots in them."
 
+    show charles smile at Seat3
+    with Dissolve(disFactor)
     charles "Indeed."
 
     "Claire and Braxton enter, and listen in on Charles's passionate defense of his new idea."
@@ -46,12 +48,14 @@ label Day4Block:
     show braxton sit lookRight at Seat2
     show claire sit at Seat5
     show elysia closed  at Seat4
+    show charles explain at Seat3
     with Dissolve(disFactor)
 
     charles "And the children fighting to the death thing is only a small part of the book."
 
     show frank sit beer at Seat1
     show elysia sit lookLeft at Seat4
+    show charles sit lookLeft at Seat3
     with Dissolve(disFactor)
 
     "The door opens, and a small crowd of young men enter. Behind them, Frank walks in and shakes raindrops off his hat."
@@ -92,6 +96,7 @@ label Day4Block:
 
     show braxton smile lookRight at Seat2
     show claire sit lookLeft at Seat5
+    show charles sit lookRight at Seat3
     with Dissolve(disFactor)
 
     claire "I can buy everyone a round."
@@ -105,6 +110,7 @@ label Day4Block:
 
     show frank sit lookRight at Seat1
     show claire sit lookLeft at Seat5
+    show charles sit lookLeft at Seat3
     with Dissolve(disFactor)
 
     frank "Nah, we can get our own drinks."
@@ -116,6 +122,7 @@ label Day4Block:
 
     show claire sit at Seat5
     show elysia smile lookPlayer at Seat4
+    show charles smile at Seat3
     with Dissolve(disFactor)
 
     elysia "So Charles wants to write a book where children in different areas fight to the death."
@@ -141,6 +148,7 @@ label Day4Block:
 
     show charles sit lookLeft at Seat3
     show frank sit beer lookRight at Seat1
+    show charles sit lookLeft at Seat3
     with Dissolve(disFactor)
 
     charles "Frank, how do you know so much?"
@@ -155,6 +163,7 @@ label Day4Block:
     show braxton sit lookLeft at Seat2
     show frank sit beer lookRight at Seat1
     show elysia sit lookLeft at Seat4
+    show charles sit lookRight at Seat3
     with Dissolve(disFactor)
 
     "One of the people sitting at a diner table approaches the bar to get another beer."
@@ -162,6 +171,7 @@ label Day4Block:
     
     show braxton sit lookRight at Seat2
     show claire angry up at Seat5
+    show charles sad at Seat3
     with Dissolve(disFactor)
 
     "He grabs the beer and returns to his table, cursing under his breath as he walks away."
@@ -210,6 +220,7 @@ label Day4Block:
     "Frank and Braxton continue to get up."
 
     show elysia sit lookLeft at Seat4
+    show charles sit lookLeft at Seat3
     with Dissolve(disFactor)
 
     elysia "And why are you getting up?"
@@ -245,11 +256,13 @@ label Day4Block:
     bartender "I can ask those guys to leave."
 
     show claire happy player at Seat5
+    show charles smile at Seat3
     with Dissolve(disFactor)
 
     claire "It's all right... It's safe here, everyone's got my back."
 
     show claire sit at Seat5
+    show charles sit lookRight at Seat3
     with Dissolve(disFactor)
 
     "During quiet moments, you can hear faint sounds of Frank complaining through the bathroom door. Charles takes the chance to share more of his story ideas."
@@ -260,6 +273,7 @@ label Day4Block:
 
     show frank sit beer lookRight at Seat1
     show braxton sit lookLeft at Seat2
+    show charles sit lookLeft at Seat3
     show claire sit lookLeft at Seat5
     with Dissolve(disFactor)
 
@@ -272,6 +286,9 @@ label Day4Block:
 
     claire "That's super gross, Dad."
 
+    show charles teased at Seat3
+    with Dissolve(disFactor)
+
     charles "Jesus, Frank."
 
     show claire sit at Seat5
@@ -279,11 +296,15 @@ label Day4Block:
 
     "Frank chugs his beer then asks for more."
 
+    show charles sit lookLeft at Seat3
+    with Dissolve(disFactor)
+
     braxton "So... what's new, Charles?"
     
     show claire sit lookLeft at Seat5
     with Dissolve(disFactor)
 
+    show charles sad at Seat3
     charles "Riots, protests... a lot of stuff happening all around the country."
 
     show claire sit at Seat5
@@ -321,15 +342,20 @@ label Day4Block:
     claire "So, do you know any books or films?"
 
     show elysia sit lookLeft at Seat4
+    show charles smile at Seat3
     with Dissolve(disFactor)
 
     charles "I'm well-educated in the literary and cinematic arts."
 
     bartender "Like... name a movie you like."
 
+    show charles explain at Seat3
+    with Dissolve(disFactor)
+
     charles "{i}Theodore Rex{/i}."
 
     show braxton sit lookPlayer at Seat2
+    show charles sit lookLeft at Seat3
     with Dissolve(disFactor)
 
     braxton "I've never even heard of that one."
@@ -347,6 +373,7 @@ label Day4Block:
     claire "That... can't be a movie, right? Those are just words put together."
 
     show claire sit lookLeft at Seat5
+    show charles explain at Seat3
     with Dissolve(disFactor)
 
     charles "I'll have you know it's one of the greatest pieces of cinematic history known to man."
@@ -358,6 +385,7 @@ label Day4Block:
     frank "It's crap."
 
     show frank drunk at Seat1
+    show charles teased at Seat3
     with Dissolve(disFactor)
 
     charles "Frank!"
@@ -368,6 +396,7 @@ label Day4Block:
     frank "Total crap."
 
     show frank drunk at Seat1
+    show charles sad at Seat3
     with Dissolve(disFactor)
 
     charles "I can't believe this. Everyone's ganging up against me."
@@ -375,6 +404,7 @@ label Day4Block:
     bartender "Nobody's against you, Charles."
 
     show braxton smile lookRight at Seat2 
+    show charles teased at Seat3
     with Dissolve(disFactor)
 
     braxton "I kind of am."
@@ -391,6 +421,7 @@ label Day4Block:
     frank "Uh... let me think it over."
 
     show frank drunk at Seat1
+    show charles sit lookLeft at Seat3
     with Dissolve(disFactor)
 
     "Frank pauses to take a swig."
@@ -403,6 +434,7 @@ label Day4Block:
     frank "It's like a movie about dinosaur racism? And Whoopi's partner is a dinosaur that eats too many cookies. He makes this machine to fling cookies at him."
 
     show braxton sit lookRight at Seat2
+    show charles smile at Seat3
     with Dissolve(disFactor)
 
     charles "And that was hilarious! And had a great message about tolerance!"
@@ -410,6 +442,7 @@ label Day4Block:
     "Claire Googles 'Theodore Rex'."
 
     show claire happy at Seat5
+    show charles sit lookRight at Seat3
     with Dissolve(disFactor)
 
     claire "Oh my God, this is a real movie."
@@ -426,9 +459,9 @@ label Day4Block:
 
     claire "Wait, I found a trailer."
 
-    show elysia sit lookRight at Seat4half behind bgCounterTop
-    show charles sit lookRight at Seat4 behind elysia
-    show braxton sit lookRight at Seat3half behind charles
+    show elysia smile lookRight at Seat4half behind bgCounterTop
+    show charles smile at Seat4 behind elysia
+    show braxton smile lookRight at Seat3half behind charles
     with Dissolve(disFactor)
 
     "Everyone bunches together to stare at Claire's computer screen except Frank, who continues drinking."
