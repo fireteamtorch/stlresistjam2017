@@ -3,7 +3,11 @@ label Day1Block:
     scene black
     with dissolve
 
+<<<<<<< HEAD
     jump Day5Block
+=======
+    #jump Day4Block
+>>>>>>> 2bcb701ed386d692e9e14918cff1b567bbed3c65
 
     play music "tempDayTitleShortestDeNoise.mp3" noloop
 
@@ -42,7 +46,7 @@ label Day1Block:
     "Hmmm... maybe you should've told someone the diner's now open Friday nights too..."
     bartender "I guess I'll leave the lights on, see if anyone comes by..."
     "..."
-    "A few hours passed..."
+    "A few hours pass..."
 
     scene black
     with dissolve
@@ -70,7 +74,7 @@ label Day1Block:
     show frank sit beer lookLeft at Seat1
     with Dissolve(disFactor)
 
-    "A middle-aged man walks in, and looks at his watch. He shakes the minor look of confusion off of his face, then rubs his belly before walking over."
+    "A middle-aged man walks in and looks at his watch. He shakes the minor look of confusion off of his face, then rubs his belly before walking over."
 
     show frank sit beer lookRight at Seat2
     with Dissolve(disFactor)
@@ -89,7 +93,7 @@ label Day1Block:
 
     show frank sit beer lookPlayer at Seat2
     with Dissolve(disFactor)
-    frank "Hamburger and fries, and -"
+    frank "Hamburger and fries, and-"
 
     show frank sit at Seat2
     with Dissolve(disFactor)
@@ -136,7 +140,7 @@ label Day1Block:
 
     show frank sit beer lookPlayer at Seat2
     with Dissolve(disFactor)
-    "Door opens, and a young man in his late twenties enters the bar."
+    "The door opens, and a young man in his late twenties enters the bar."
 
     show frank sit beer lookRight at Seat2
     show charles sit at Seat1
@@ -149,7 +153,7 @@ label Day1Block:
 
     show charles sit at Seat4
     with Dissolve(disFactor)
-    "Charles pondered his surroundings, and chose to sit down on the empty side of the bar."
+    "Charles ponders his surroundings, and chooses to sit down on the empty side of the bar."
 
     charles "Open late, huh?"
 
@@ -177,7 +181,7 @@ label Day1Block:
     with Dissolve(disFactor)
     charles "That'd work."
 
-    "Half an hour went by..."
+    "Half an hour goes by..."
 
     show frank drunk at Seat2
     with Dissolve(disFactor)
@@ -197,7 +201,7 @@ label Day1Block:
     with Dissolve(disFactor)
     frank "Yeah... I do see the resemblance. Well, good for Jens."
 
-    "Charles perks up his head at the sound of conversation."
+    "Charles perks up at the sound of conversation."
 
     charles "No wonder, I was on my way home after meeting a super important deadline, and saw this place open. I thought I got lost or something."
 
@@ -211,7 +215,7 @@ label Day1Block:
 
     show frank drunk angry lookLeft at Seat2
     with Dissolve(disFactor)
-    "Somehow, his eyes lights up even more."
+    "Somehow, his eyes light up even more."
 
     show frank drunk at Seat2
     with Dissolve(disFactor)
@@ -223,7 +227,7 @@ label Day1Block:
 
     show frank drunk angry lookRight at Seat2
     with Dissolve(disFactor)
-    "Charles look around to gauge people's reactions before continuing, Frank is too drunk to care."
+    "Charles look around to gauge people's reactions before continuing. Frank is too drunk to care."
 
     show frank drunk at Seat2
     with Dissolve(disFactor)
@@ -247,7 +251,7 @@ label Day1Block:
 
     scene black
     with dissolve
-    "The rest of the night proved uneventful. After the patrons left, you closed up shop."
+    "The rest of the night proved uneventful. After the patrons leave, you close up shop."
     
     bartender "All in all, not bad for the first day."
 

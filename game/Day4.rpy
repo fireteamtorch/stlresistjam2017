@@ -25,23 +25,23 @@ label Day4Block:
     play music "lux_v001_lpf_LOOPedit.wav" 
 
 
-    "You had expected a quiet day after what happened last week... Maybe they won't show up..."
+    "You expect a quiet day after what happened last week. Maybe they won't show up..."
 
-    "Charles and Elysia were the first ones to arrive, still debating as they placed their orders."
+    "Charles and Elysia are the first ones to arrive, still debating as they place their orders."
 
     show charles sit at Seat3
     show elysia sit lookLeft at Seat4
     with Dissolve(disFactor)
-    charles "Mine's super different though, in my book they are called Zones, and there are thousands of them."
+    charles "Mine's super different though! In my book they are called Zones, and there are thousands of them."
 
     show elysia smile lookLeft at Seat4
     with Dissolve(disFactor)
 
-    elysia "With Robots in them."
+    elysia "With robots in them."
 
     charles "Indeed."
 
-    "Claire and Braxton enters, and listens in on Charles' passionate defense of his new idea."
+    "Claire and Braxton enter, and listen in on Charles's passionate defense of his new idea."
 
     show braxton sit lookRight at Seat2
     show claire sit at Seat5
@@ -54,7 +54,7 @@ label Day4Block:
     show elysia sit lookLeft at Seat4
     with Dissolve(disFactor)
 
-    "The door opens, and a small crowd of young men entered. Behind them, Frank walks in, and shakes raindrops off his hat."
+    "The door opens, and a small crowd of young men enter. Behind them, Frank walks in and shakes raindrops off his hat."
 
     "This is turning out to be an unusually busy night, with a rowdy group of male college students sitting themselves down at one of the diner tables."
 
@@ -71,7 +71,7 @@ label Day4Block:
     show elysia closed at Seat4
     with Dissolve(disFactor)
 
-    elysia "Shit...Makes patrols way more tedious... But that's not for another few hours."
+    elysia "Shit. Makes patrols way more tedious... But that's not for another few hours."
 
     show elysia sit lookLeft at Seat4
     show frank smile beer at Seat1
@@ -125,19 +125,19 @@ label Day4Block:
     show braxton smile lookPlayer at Seat2
     with Dissolve(disFactor)
 
-    frank "Battle Royale."
+    frank "{i}Battle Royale{/i}."
 
     show frank smile beer lookRight at Seat1
     show elysia smile lookPlayer at Seat4
     show braxton smile lookRight at Seat2
     with Dissolve(disFactor)
 
-    elysia "Or the Hunger Games."
+    elysia "Or {i}The Hunger Games{/i}."
 
     show frank smile beer at Seat1
     with Dissolve(disFactor)
 
-    frank "Battle Royale's better: grittier, better commentary. A lot more teenagers but less angst. It's pretty good."
+    frank "{i}Battle Royale{/i}'s better: grittier, better commentary. A lot more teenagers but less angst. It's pretty good."
 
     show charles sit lookLeft at Seat3
     show frank sit beer lookRight at Seat1
@@ -157,13 +157,14 @@ label Day4Block:
     show elysia sit lookLeft at Seat4
     with Dissolve(disFactor)
 
-    "One of the people sitting at diner table approaches the bar to get another beer. The drunk young man tries to get Claire's attention, but she shakes her head and declines to make small talk."
+    "One of the people sitting at a diner table approaches the bar to get another beer."
+    "The drunk young man tries to get Claire's attention, but she shakes her head and declines to make small talk."
     
     show braxton sit lookRight at Seat2
     show claire angry up at Seat5
     with Dissolve(disFactor)
 
-    "He grabs the beer and returns to his table, cursing constantly under his breath as he walks away."
+    "He grabs the beer and returns to his table, cursing under his breath as he walks away."
 
     show braxton sit lookLeft at Seat2
     show claire sit at Seat5
@@ -171,7 +172,7 @@ label Day4Block:
     show elysia sit lookRight at Seat4
     with Dissolve(disFactor)
    
-    "Everyone at the bar glared over angrily, and Frank starts to get up."
+    "Everyone at the bar glares over angrily, and Frank starts to get up."
 
     hide frank angry lookRight
     show frank angry lookRight at Seat1
@@ -206,7 +207,7 @@ label Day4Block:
     show braxton sit lookRight at Seat2 behind bgCounterTop
     with Dissolve(disFactor)
 
-    "Frank and Braxton continues to get up."
+    "Frank and Braxton continue to get up."
 
     show elysia sit lookLeft at Seat4
     with Dissolve(disFactor)
@@ -215,11 +216,12 @@ label Day4Block:
 
     "Braxton shrugs."
 
-    braxton "He mentioned teaching, I take teaching very seriously."
+    braxton "He mentioned teaching. I take teaching very seriously."
 
-    elysia "God damn it, Braxton, don't encourage him. Seriously Frank, I don't want to have to break up a bar fight. The moment one of them says something, you're gonna throw punches."
+    elysia "Goddamn it, Braxton, don't encourage him. Seriously, Frank, I don't want to have to break up a bar fight."
+    elysia "The moment one of them says something, you're gonna throw punches."
 
-    "Frank and Braxton looks over at you, and turns to find Elysia glare at them."
+    "Frank and Braxton look over at you, and turn to find Elysia glaring at them."
 
     show frank angry lookLeft at Seat1
     with Dissolve(disFactor)
@@ -245,12 +247,15 @@ label Day4Block:
     show claire happy player at Seat5
     with Dissolve(disFactor)
 
-    claire "It's alright... It's safe here, everyone's got my back."
+    claire "It's all right... It's safe here, everyone's got my back."
 
     show claire sit at Seat5
     with Dissolve(disFactor)
 
     "During quiet moments, you can hear faint sounds of Frank complaining through the bathroom door. Charles takes the chance to share more of his story ideas."
+
+    stop music fadeout 1.0
+    play music "noir_v002_lpf_LOOPedit.wav" fadein 1.0
 
     "The duo returns after a few minutes."
 
@@ -266,7 +271,7 @@ label Day4Block:
     show claire angry up at Seat5
     with Dissolve(disFactor)
 
-    claire "That's super gross Dad."
+    claire "That's super gross, Dad."
 
     charles "Jesus, Frank."
 
@@ -275,17 +280,17 @@ label Day4Block:
 
     "Frank chugs his beer then asks for more."
 
-    braxton "So... what's new Charles?"
+    braxton "So... what's new, Charles?"
     
     show claire sit lookLeft at Seat5
     with Dissolve(disFactor)
 
-    charles "Riots, protests... lot of stuff happening all around the country."
+    charles "Riots, protests... a lot of stuff happening all around the country."
 
     show claire sit at Seat5
     with Dissolve(disFactor)
 
-    "Everyone ponders Charles' words quietly for a few moments."
+    "Everyone ponders Charles's words quietly for a few moments."
 
     show claire sit at Seat5
     with Dissolve(disFactor)
@@ -314,7 +319,7 @@ label Day4Block:
     show claire sit lookLeft at Seat5
     with Dissolve(disFactor)
 
-    claire "So do you know any books or films?"
+    claire "So, do you know any books or films?"
 
     show elysia sit lookLeft at Seat4
     with Dissolve(disFactor)
@@ -323,7 +328,7 @@ label Day4Block:
 
     bartender "Like... name a movie you like."
 
-    charles "Theodore Rex."
+    charles "{i}Theodore Rex{/i}."
 
     show braxton sit lookPlayer at Seat2
     with Dissolve(disFactor)
@@ -334,7 +339,7 @@ label Day4Block:
     show frank drunk angry lookLeft at Seat1
     with Dissolve(disFactor)
 
-    frank "I saw it once. Whoopi Goldberg's in it. She's a robot cop that's hunting down a dinosaur killer."
+    frank "I saw it once. Whoopi Goldberg's in it. She's a robot cop who's hunting down a dinosaur killer."
 
     show frank drunk at Seat1
     show claire sit lookPlayer at Seat5
@@ -403,7 +408,7 @@ label Day4Block:
 
     charles "And that was hilarious! And had a great message about tolerance!"
 
-    "Claire googles 'Theodore Rex'."
+    "Claire Googles 'Theodore Rex'."
 
     show claire happy at Seat5
     with Dissolve(disFactor)
@@ -427,11 +432,11 @@ label Day4Block:
     show braxton sit lookRight at Seat3half behind charles
     with Dissolve(disFactor)
 
-    "Everyone bunches together to stare at Claire's computer screen, except Frank, who continues drinking."
+    "Everyone bunches together to stare at Claire's computer screen except Frank, who continues drinking."
 
     charles "Now doesn't that look fantastic?"
 
-    "Everyone is silent, except Frank, who continues drinking."
+    "Everyone is silent except Frank, who continues drinking."
     
     charles "Guys? Guys...? Come on, guys?"
 
