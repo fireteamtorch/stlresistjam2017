@@ -114,7 +114,7 @@ label start:
         pause 1.0
         repeat
 
-    image charles sit = im.Scale("Charles-Player-LookEdit.png", ScaleCharles, ScaleCharles)
+    image charles sit = im.Scale("Charles-Player-Look.png", ScaleCharles, ScaleCharles)
     image charles sit lookLeft = im.Scale("Charles-Look-Left.png", ScaleCharles, ScaleCharles)
     image charles sit lookRight = im.Scale("Charles-Player-Look.png", ScaleCharles, ScaleCharles)
     image charles smile = im.Scale("Charles-Player-Look-Smile.png", ScaleCharles, ScaleCharles)
@@ -213,9 +213,13 @@ label start:
     with fade
     pause 1.5
 
+    jump Day1Block
 
+<<<<<<< HEAD
     jump Day1Block
     #scene bg room
+=======
+>>>>>>> 8fc61d84f341a072639eed7e91e6b82115de3662
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images

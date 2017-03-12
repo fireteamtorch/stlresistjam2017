@@ -1,9 +1,38 @@
+<<<<<<< HEAD
 Sun Mar 12 15:03:27 2017
+=======
+<<<<<<< HEAD
+Sun Mar 12 14:51:23 2017
+=======
+<<<<<<< HEAD
+Sun Mar 12 14:37:43 2017
+=======
+Sun Mar 12 14:21:56 2017
+>>>>>>> 6cfa743e4a18f00b6749229691856fe43d8c96bf
+>>>>>>> 07c966480d37571de5de83e00c365952a496b8ab
+>>>>>>> 8fc61d84f341a072639eed7e91e6b82115de3662
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
  
 
+<<<<<<< HEAD
 Bootstrap to the start of init.init took 0.26s
+=======
+<<<<<<< HEAD
+Bootstrap to the start of init.init took 0.06s
+Early init took 0.01s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading persistent took 0.01s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+=======
+<<<<<<< HEAD
+Bootstrap to the start of init.init took 0.28s
+>>>>>>> 8fc61d84f341a072639eed7e91e6b82115de3662
 Early init took 0.04s
 Loader init took 0.08s
 Loading error handling took 0.08s
@@ -12,7 +41,12 @@ Loading persistent took 0.06s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.42s
 Loading analysis data took 0.08s
+<<<<<<< HEAD
 Analyze and compile ATL took 0.02s
+=======
+Analyze and compile ATL took 0.01s
+>>>>>>> 07c966480d37571de5de83e00c365952a496b8ab
+>>>>>>> 8fc61d84f341a072639eed7e91e6b82115de3662
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\David\\AppData\\Roaming/RenPy/backups\\stlresistjam2017':
 Dump and make backups. took 0.22s
@@ -27,8 +61,49 @@ Load screen analysis took 0.00s
 Analyze screens took 0.03s
 Save screen analysis took 0.20s
 Prepare screens took 0.16s
+<<<<<<< HEAD
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
+=======
+Save pyanalysis. took 0.38s
+Save bytecode. took 0.14s
+Running _start took 0.01s
+=======
+Bootstrap to the start of init.init took 0.33s
+Early init took 0.07s
+Loader init took 0.12s
+Loading error handling took 0.08s
+Loading script took 0.76s
+Loading persistent took 0.06s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.41s
+Loading analysis data took 0.13s
+Analyze and compile ATL took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ThatYiGuy\\AppData\\Roaming/RenPy/backups\\stlresistjam2017':
+Dump and make backups. took 0.25s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+DPI scale factor: 1.000000
+Creating interface object took 0.09s
+Cleaning stores took 0.00s
+Init translation took 0.18s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+<<<<<<< HEAD
+Analyze screens took 0.01s
+Save screen analysis took 0.04s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+=======
+Analyze screens took 0.04s
+Save screen analysis took 0.15s
+Prepare screens took 0.19s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.08s
+>>>>>>> 07c966480d37571de5de83e00c365952a496b8ab
+>>>>>>> 8fc61d84f341a072639eed7e91e6b82115de3662
 Running _start took 0.00s
 Performance test:
 Interface start took 0.02s
@@ -254,6 +329,7 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
 Total time until interface ready: 3.9470000267s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
@@ -269,3 +345,35 @@ Load screen analysis took 0.04s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.01s
+=======
+<<<<<<< HEAD
+Total time until interface ready: 0.972999811172s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.018000 seconds.
+- Frame drawn at 0.036000 seconds.
+- Frame drawn at 0.048000 seconds.
+- Frame drawn at 0.064000 seconds.
+- 0.064000 seconds to render 5 frames.
+=======
+<<<<<<< HEAD
+Total time until interface ready: 5.01800012589s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.050000 seconds.
+- Frame drawn at 0.089000 seconds.
+- Frame drawn at 0.098000 seconds.
+- Frame drawn at 0.133000 seconds.
+- 0.133000 seconds to render 5 frames.
+=======
+Total time until interface ready: 4.10500001907s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.034000 seconds.
+- Frame drawn at 0.045000 seconds.
+- Frame drawn at 0.062000 seconds.
+- Frame drawn at 0.079000 seconds.
+- 0.079000 seconds to render 5 frames.
+>>>>>>> 6cfa743e4a18f00b6749229691856fe43d8c96bf
+>>>>>>> 07c966480d37571de5de83e00c365952a496b8ab
+>>>>>>> 8fc61d84f341a072639eed7e91e6b82115de3662
